@@ -26,6 +26,7 @@
     "pg": "^7.1.2"
   },
   "dependencies": {
+    "knex-csv-transformer": "^1.0.4",
     "body-parser": "^1.17.2",
     "express": "^4.15.4"
   }

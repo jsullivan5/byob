@@ -1,32 +1,22 @@
 
-exports.up = function (knex, Promise) {
-  return Promise.all([
-    knex.schema.createTable('questions', (table) => {
-      table.increments('id').primary();
-      table.integer('game_id').unsigned();
-      table.integer('season').unsigned();
-      table.string('round');
-      table.float('row', 2);
-      table.float('column', 2);
-      table.string('category');
-      table.integer('value').unsigned();
-      table.string('question_text');
-      table.string('answer');
-    }),
-    knex.schema.createTable('locations', (table) => {
-      table.increments('id').primary();
-      table.integer('game_id').unsigned();
-      table.foreign('game_id').references('questions.game_id');
-      table.integer('player_id').unsigned();
-      table.string('seat_location');
-      table.integer('season').unsigned();
-    }),
-  ]);
-};
+exports.up = (knex, Promise) => Promise.all([
+  knex.schema.createTable('cameras', (table) => {
+    table.increments('id').primary();
+    table.string('model');
+    table.float('max_resolution');
+    table.float('low_resolution');
+    table.float('effective_pixels');
+    table.float('zoom_wide');
+    table.float('zoom_tele');
+    table.float('normal_focus_range');
+    table.float('macro_focus_range');
+    table.float('storage_included');
+    table.float('weight');
+    table.float('dimensions');
+    table.float('price', 1);
+  }),
+]);
 
-exports.down = function (knex, Promise) {
-  return Promise.all([
-    knex.schema.dropTable('locations'),
-    knex.schema.dropTable('questions'),
-  ]);
-};
+exports.down = (knex, Promise) => Promise.all([
+  knex.schema.dropTable('cameras'),
+]);

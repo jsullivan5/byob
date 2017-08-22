@@ -4,7 +4,7 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/byob_jeopardy',
+    connection: 'postgres://localhost/fotofinder',
     migrations: {
       directory: './src/server/db/migrations',
     },
@@ -15,7 +15,7 @@ module.exports = {
   },
   test: {
     client: 'pg',
-    connection: process.env.DATABASE_URL || 'postgres://localhost/byob_jeopardy_testing',
+    connection: process.env.DATABASE_URL || 'postgres://localhost/fotofinder_test',
     migrations: {
       directory: './src/server/db/migrations',
     },
