@@ -21,7 +21,9 @@
   "devDependencies": {
     "eslint": "^4.5.0",
     "eslint-config-airbnb-base": "^11.3.1",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint-plugin-import": "^2.7.0",
+    "knex": "^0.13.0",
+    "pg": "^7.1.2"
   },
   "dependencies": {
     "body-parser": "^1.17.2",
