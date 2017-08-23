@@ -1,8 +1,8 @@
 [{
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0287.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -27,7 +27,7 @@
     "ExposureTime": 0.001409,
     "FNumber": 2.2,
     "ExposureProgram": 2,
-    "ISO": 100,
+    "": 100,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -107,8 +107,8 @@
 },{
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0292.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -133,7 +133,7 @@
     "ExposureTime": 0.001244,
     "FNumber": 2.2,
     "ExposureProgram": 2,
-    "ISO": 100,
+    "": 100,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -213,8 +213,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0297.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -239,7 +239,7 @@
     "ExposureTime": 0.004515,
     "FNumber": 2.2,
     "ExposureProgram": 2,
-    "ISO": 100,
+    "": 100,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -319,8 +319,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0302.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -345,7 +345,7 @@
     "ExposureTime": 0.001098,
     "FNumber": 2.2,
     "ExposureProgram": 2,
-    "ISO": 100,
+    "": 100,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -425,8 +425,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0307.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -451,7 +451,7 @@
     "ExposureTime": 0.001204,
     "FNumber": 2.2,
     "ExposureProgram": 2,
-    "ISO": 100,
+    "": 100,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -531,8 +531,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0312.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -557,7 +557,7 @@
     "ExposureTime": 0.004277,
     "FNumber": 2.2,
     "ExposureProgram": 2,
-    "ISO": 100,
+    "": 100,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -637,8 +637,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0321.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -663,7 +663,7 @@
     "ExposureTime": 1,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 400,
+    "": 400,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -743,8 +743,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0326.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -769,7 +769,7 @@
     "ExposureTime": 2,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 400,
+    "": 400,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -849,8 +849,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0332.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -875,7 +875,7 @@
     "ExposureTime": 4,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 200,
+    "": 200,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -955,8 +955,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0337.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -981,7 +981,7 @@
     "ExposureTime": 2.5,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 400,
+    "": 400,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -1061,8 +1061,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0342.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -1087,7 +1087,7 @@
     "ExposureTime": 2.5,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 200,
+    "": 200,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -1167,8 +1167,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0347.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -1193,7 +1193,7 @@
     "ExposureTime": 0.4,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 200,
+    "": 200,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -1273,8 +1273,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0353.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -1299,7 +1299,7 @@
     "ExposureTime": 2,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 200,
+    "": 200,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -1379,8 +1379,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0358.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -1405,7 +1405,7 @@
     "ExposureTime": 3.2,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 200,
+    "": 200,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -1485,8 +1485,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0364.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -1511,7 +1511,7 @@
     "ExposureTime": 2,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 400,
+    "": 400,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -1591,8 +1591,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0369.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -1617,7 +1617,7 @@
     "ExposureTime": 2,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 400,
+    "": 400,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -1697,8 +1697,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0374.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -1723,7 +1723,7 @@
     "ExposureTime": 2,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 200,
+    "": 200,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -1803,8 +1803,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0379.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -1829,7 +1829,7 @@
     "ExposureTime": 2,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 400,
+    "": 400,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -1909,8 +1909,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0384.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -1935,7 +1935,7 @@
     "ExposureTime": 2,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 200,
+    "": 200,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -2015,8 +2015,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0389.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -2041,7 +2041,7 @@
     "ExposureTime": 2,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 400,
+    "": 400,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -2121,8 +2121,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0394.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -2147,7 +2147,7 @@
     "ExposureTime": 1.3,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 200,
+    "": 200,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -2227,8 +2227,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0399.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -2253,7 +2253,7 @@
     "ExposureTime": 0.8,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 400,
+    "": 400,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -2333,8 +2333,8 @@
 }, {
   "image": {
     "ImageDescription": "DCIM\\100MEDIA\\DJI_0404.JPG",
-    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Make": "DJI",
+    "Model": "FC220",
     "Orientation": 1,
     "XResolution": 72,
     "YResolution": 72,
@@ -2359,7 +2359,7 @@
     "ExposureTime": 1,
     "FNumber": 2.2,
     "ExposureProgram": 1,
-    "ISO": 400,
+    "": 400,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 51, 48]
@@ -2462,7 +2462,7 @@
     "ExposureTime": 0.0033222591362126247,
     "FNumber": 1.8,
     "ExposureProgram": 2,
-    "ISO": 40,
+    "": 40,
     "ExifVersion": {
       "type": "Buffer",
       "data": [48, 50, 50, 49]
@@ -2552,7 +2552,7 @@
     "ExposureTime": 0.0005,
     "FNumber": 3.2,
     "ExposureProgram": 1,
-    "ISO": 2500,
+    "": 2500,
     "SensitivityType": 2,
     "RecommendedExposureIndex": 2500,
     "ExifVersion": {
@@ -2627,7 +2627,7 @@
   "exif": {
     "ExposureTime": 0.005,
     "ExposureProgram": 1,
-    "ISO": 2500,
+    "": 2500,
     "SensitivityType": 2,
     "RecommendedExposureIndex": 2500,
     "ExifVersion": {
@@ -2698,7 +2698,7 @@
   "exif": {
     "ExposureTime": 0.1,
     "ExposureProgram": 1,
-    "ISO": 100,
+    "": 100,
     "SensitivityType": 2,
     "RecommendedExposureIndex": 100,
     "ExifVersion": {
@@ -2761,7 +2761,7 @@
   "exif": {
     "ExposureTime": 0.0125,
     "ExposureProgram": 1,
-    "ISO": 1250,
+    "": 1250,
     "SensitivityType": 2,
     "RecommendedExposureIndex": 1250,
     "ExifVersion": {

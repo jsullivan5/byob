@@ -27,22 +27,22 @@ exports.up = (knex, Promise) => Promise.all([
   knex.schema.createTable('photos', (table) => {
     table.increments('id').primary();
     table.integer('location_id').unsigned();
-    table.foreign('location_id').references('locations.id');
+    // table.foreign('location_id').references('locations.id');
     table.integer('camera_id').unsigned();
-    table.foreign('camera_id').references('cameras.id');
+    // table.foreign('camera_id').references('cameras.id');
     table.string('url');
     table.string('name');
     table.string('description');
-    table.decimal('aperture_value'); // exif.ApertureValue
-    table.string('iso'); // exif.ISO
-    table.string('exposure_mode');
-    table.string('exposure_time_seconds');
-    table.string('content_creation_date');
-    table.string('altitude');
+    table.float('aperture_value');
+    table.integer('iso').unsigned();
+    table.integer('exposure_mode').unsigned();
+    table.float('shutter_speed');
+    table.dateTime('content_creation_date');
+    table.json('gps');
     table.string('acquisition_model');
     table.string('acquisition_make');
-    table.string('fnumber');
-    table.string('lens_info');
+    table.float('fnumber');
+    table.float('focal_length');
     table.string('lens_make');
     table.string('lens_model');
   }),
