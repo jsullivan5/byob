@@ -1,0 +1,2813 @@
+[{
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0287.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:06:29 18:21:03",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 8675
+  },
+  "exif": {
+    "ExposureTime": 0.001409,
+    "FNumber": 2.2,
+    "ExposureProgram": 2,
+    "ISO": 100,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:06:29 18:21:03",
+    "CreateDate": "2017:06:29 18:21:03",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.761722,
+    "ShutterSpeedValue": 9.47,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 0,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 51, 51, 211, 192, 7, 0, 11, 0, 1, 0, 0, 0, 51, 51, 147, 192, 8, 0, 11, 0, 1, 0, 0, 0, 205, 204, 12, 65, 9, 0, 11, 0, 1, 0, 0, 0, 154, 153, 97, 193, 10, 0, 11, 0, 1, 0, 0, 0, 205, 204, 156, 192, 11, 0, 11, 0, 1, 0, 0, 0, 51, 51, 150, 66, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 0,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 44, 24.2937],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 1, 12.5232],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1715.421
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0292.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:06:29 18:21:48",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 9093
+  },
+  "exif": {
+    "ExposureTime": 0.001244,
+    "FNumber": 2.2,
+    "ExposureProgram": 2,
+    "ISO": 100,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:06:29 18:21:48",
+    "CreateDate": "2017:06:29 18:21:48",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.74012,
+    "ShutterSpeedValue": 9.65,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 0,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 205, 204, 204, 189, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 51, 51, 163, 192, 7, 0, 11, 0, 1, 0, 0, 0, 0, 0, 114, 66, 8, 0, 11, 0, 1, 0, 0, 0, 205, 204, 12, 192, 9, 0, 11, 0, 1, 0, 0, 0, 0, 0, 120, 193, 10, 0, 11, 0, 1, 0, 0, 0, 0, 0, 112, 66, 11, 0, 11, 0, 1, 0, 0, 0, 0, 0, 211, 66, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 0,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 44, 24.3801],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 1, 16.6831],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1715.021
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0297.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:06:29 18:21:56",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 9105
+  },
+  "exif": {
+    "ExposureTime": 0.004515,
+    "FNumber": 2.2,
+    "ExposureProgram": 2,
+    "ISO": 100,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:06:29 18:21:56",
+    "CreateDate": "2017:06:29 18:21:56",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.7970106666666665,
+    "ShutterSpeedValue": 7.79,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 0,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 154, 153, 249, 192, 7, 0, 11, 0, 1, 0, 0, 0, 102, 102, 164, 66, 8, 0, 11, 0, 1, 0, 0, 0, 205, 204, 140, 191, 9, 0, 11, 0, 1, 0, 0, 0, 205, 204, 179, 194, 10, 0, 11, 0, 1, 0, 0, 0, 102, 102, 158, 66, 11, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 0,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 44, 24.3783],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 1, 16.6865],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1715.021
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0302.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:06:29 18:22:17",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 9387
+  },
+  "exif": {
+    "ExposureTime": 0.001098,
+    "FNumber": 2.2,
+    "ExposureProgram": 2,
+    "ISO": 100,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:06:29 18:22:17",
+    "CreateDate": "2017:06:29 18:22:17",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.742822,
+    "ShutterSpeedValue": 9.83,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 0,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 51, 51, 195, 192, 7, 0, 11, 0, 1, 0, 0, 0, 205, 204, 129, 66, 8, 0, 11, 0, 1, 0, 0, 0, 154, 153, 153, 190, 9, 0, 11, 0, 1, 0, 0, 0, 205, 204, 92, 193, 10, 0, 11, 0, 1, 0, 0, 0, 205, 204, 128, 66, 11, 0, 11, 0, 1, 0, 0, 0, 154, 153, 207, 66, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 0,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 44, 24.9803],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 1, 17.1848],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1714.921
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0307.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:06:29 18:22:49",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 9061
+  },
+  "exif": {
+    "ExposureTime": 0.001204,
+    "FNumber": 2.2,
+    "ExposureProgram": 2,
+    "ISO": 100,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:06:29 18:22:49",
+    "CreateDate": "2017:06:29 18:22:49",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.7002246666666667,
+    "ShutterSpeedValue": 9.697,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 0,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 205, 204, 4, 193, 7, 0, 11, 0, 1, 0, 0, 0, 154, 153, 133, 66, 8, 0, 11, 0, 1, 0, 0, 0, 154, 153, 89, 192, 9, 0, 11, 0, 1, 0, 0, 0, 51, 51, 123, 193, 10, 0, 11, 0, 1, 0, 0, 0, 0, 0, 132, 66, 11, 0, 11, 0, 1, 0, 0, 0, 0, 0, 147, 66, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 0,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 44, 24.4455],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 1, 16.6844],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1709.821
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0312.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:06:29 18:23:07",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 9053
+  },
+  "exif": {
+    "ExposureTime": 0.004277,
+    "FNumber": 2.2,
+    "ExposureProgram": 2,
+    "ISO": 100,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:06:29 18:23:07",
+    "CreateDate": "2017:06:29 18:23:07",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 3.2485646666666668,
+    "ShutterSpeedValue": 7.869,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 0,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 205, 204, 204, 61, 6, 0, 11, 0, 1, 0, 0, 0, 154, 153, 185, 192, 7, 0, 11, 0, 1, 0, 0, 0, 154, 153, 165, 66, 8, 0, 11, 0, 1, 0, 0, 0, 102, 102, 70, 192, 9, 0, 11, 0, 1, 0, 0, 0, 0, 0, 180, 194, 10, 0, 11, 0, 1, 0, 0, 0, 205, 204, 159, 66, 11, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 0,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 44, 24.3486],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 1, 16.667],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1702.621
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0321.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:01 22:23:41",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 8554
+  },
+  "exif": {
+    "ExposureTime": 1,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 400,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:01 22:23:41",
+    "CreateDate": "2017:07:01 22:23:41",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.650788,
+    "ShutterSpeedValue": 0,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 3,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 205, 204, 108, 64, 7, 0, 11, 0, 1, 0, 0, 0, 205, 204, 188, 66, 8, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 192, 9, 0, 11, 0, 1, 0, 0, 0, 102, 102, 246, 192, 10, 0, 11, 0, 1, 0, 0, 0, 205, 204, 188, 66, 11, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 4000,
+    "ExifImageHeight": 3000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 15.4208],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 41.0006],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1646.706
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0326.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:01 22:24:46",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 9157
+  },
+  "exif": {
+    "ExposureTime": 2,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 400,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:01 22:24:46",
+    "CreateDate": "2017:07:01 22:24:46",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.782589333333333,
+    "ShutterSpeedValue": -1,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 3,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 102, 102, 150, 64, 7, 0, 11, 0, 1, 0, 0, 0, 205, 204, 205, 66, 8, 0, 11, 0, 1, 0, 0, 0, 154, 153, 25, 192, 9, 0, 11, 0, 1, 0, 0, 0, 205, 204, 4, 193, 10, 0, 11, 0, 1, 0, 0, 0, 0, 0, 205, 66, 11, 0, 11, 0, 1, 0, 0, 0, 205, 204, 160, 66, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 15.7295],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 40.9347],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1652.606
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0332.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:01 22:27:18",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 8841
+  },
+  "exif": {
+    "ExposureTime": 4,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 200,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:01 22:27:18",
+    "CreateDate": "2017:07:01 22:27:18",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 3.2872833333333333,
+    "ShutterSpeedValue": -2,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 3,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 0, 0, 160, 192, 7, 0, 11, 0, 1, 0, 0, 0, 0, 0, 108, 194, 8, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 9, 0, 11, 0, 1, 0, 0, 0, 51, 51, 91, 193, 10, 0, 11, 0, 1, 0, 0, 0, 205, 204, 110, 194, 11, 0, 11, 0, 1, 0, 0, 0, 0, 0, 151, 66, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 13.7764],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 40.761],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1674.406
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0337.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:01 22:58:42",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 9250
+  },
+  "exif": {
+    "ExposureTime": 2.5,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 400,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:01 22:58:41",
+    "CreateDate": "2017:07:01 22:58:41",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.883302666666667,
+    "ShutterSpeedValue": -1.321,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 3,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 205, 204, 140, 191, 7, 0, 11, 0, 1, 0, 0, 0, 205, 204, 228, 65, 8, 0, 11, 0, 1, 0, 0, 0, 102, 102, 166, 191, 9, 0, 11, 0, 1, 0, 0, 0, 51, 51, 155, 193, 10, 0, 11, 0, 1, 0, 0, 0, 154, 153, 221, 65, 11, 0, 11, 0, 1, 0, 0, 0, 205, 204, 219, 66, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 44, 45.4612],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 55.1087],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1662.635
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0342.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:01 23:06:27",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 9071
+  },
+  "exif": {
+    "ExposureTime": 2.5,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 200,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:01 23:06:26",
+    "CreateDate": "2017:07:01 23:06:26",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 3.0191773333333334,
+    "ShutterSpeedValue": -1.321,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 3,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 205, 204, 204, 61, 6, 0, 11, 0, 1, 0, 0, 0, 205, 204, 204, 62, 7, 0, 11, 0, 1, 0, 0, 0, 51, 51, 193, 66, 8, 0, 11, 0, 1, 0, 0, 0, 51, 51, 51, 191, 9, 0, 11, 0, 1, 0, 0, 0, 154, 153, 249, 192, 10, 0, 11, 0, 1, 0, 0, 0, 154, 153, 192, 66, 11, 0, 11, 0, 1, 0, 0, 0, 154, 153, 195, 66, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 44, 51.8735],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 54.5827],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1625.564
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0347.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:01 23:08:11",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 8885
+  },
+  "exif": {
+    "ExposureTime": 0.4,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 200,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:01 23:08:10",
+    "CreateDate": "2017:07:01 23:08:10",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.2992113333333335,
+    "ShutterSpeedValue": 1.321,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 0,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 7, 0, 11, 0, 1, 0, 0, 0, 154, 153, 184, 66, 8, 0, 11, 0, 1, 0, 0, 0, 205, 204, 76, 191, 9, 0, 11, 0, 1, 0, 0, 0, 102, 102, 170, 193, 10, 0, 11, 0, 1, 0, 0, 0, 102, 102, 182, 66, 11, 0, 11, 0, 1, 0, 0, 0, 154, 153, 223, 66, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 44, 51.8315],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 54.7093],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1642.164
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0353.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:01 23:25:23",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 8932
+  },
+  "exif": {
+    "ExposureTime": 2,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 200,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:01 23:25:23",
+    "CreateDate": "2017:07:01 23:25:23",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.6871673333333335,
+    "ShutterSpeedValue": -1,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 3,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 0, 0, 192, 63, 7, 0, 11, 0, 1, 0, 0, 0, 154, 153, 233, 65, 8, 0, 11, 0, 1, 0, 0, 0, 102, 102, 166, 191, 9, 0, 11, 0, 1, 0, 0, 0, 0, 0, 180, 194, 10, 0, 11, 0, 1, 0, 0, 0, 154, 153, 233, 65, 11, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 4000,
+    "ExifImageHeight": 3000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 14.0972],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 34.9979],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1698.214
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0358.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:01 23:26:19",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 9124
+  },
+  "exif": {
+    "ExposureTime": 3.2,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 200,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:01 23:26:19",
+    "CreateDate": "2017:07:01 23:26:19",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.937742666666667,
+    "ShutterSpeedValue": -1.678,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 3,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 0, 0, 32, 64, 7, 0, 11, 0, 1, 0, 0, 0, 51, 51, 235, 65, 8, 0, 11, 0, 1, 0, 0, 0, 102, 102, 6, 192, 9, 0, 11, 0, 1, 0, 0, 0, 205, 204, 179, 194, 10, 0, 11, 0, 1, 0, 0, 0, 51, 51, 235, 65, 11, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 4000,
+    "ExifImageHeight": 3000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 14.075],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 35.0072],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1715.314
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0364.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:01 23:27:26",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 9064
+  },
+  "exif": {
+    "ExposureTime": 2,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 400,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:01 23:27:26",
+    "CreateDate": "2017:07:01 23:27:26",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.6694713333333335,
+    "ShutterSpeedValue": -1,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 0,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 205, 204, 76, 63, 7, 0, 11, 0, 1, 0, 0, 0, 205, 204, 51, 67, 8, 0, 11, 0, 1, 0, 0, 0, 0, 0, 144, 64, 9, 0, 11, 0, 1, 0, 0, 0, 205, 204, 179, 194, 10, 0, 11, 0, 1, 0, 0, 0, 205, 204, 51, 67, 11, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 4000,
+    "ExifImageHeight": 3000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 13.9731],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 34.9597],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1715.414
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0369.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:01 23:29:11",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 8530
+  },
+  "exif": {
+    "ExposureTime": 2,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 400,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:01 23:29:11",
+    "CreateDate": "2017:07:01 23:29:11",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 3.3288393333333333,
+    "ShutterSpeedValue": -1,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 3,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 51, 51, 243, 63, 7, 0, 11, 0, 1, 0, 0, 0, 205, 204, 186, 66, 8, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 63, 9, 0, 11, 0, 1, 0, 0, 0, 51, 51, 227, 192, 10, 0, 11, 0, 1, 0, 0, 0, 102, 102, 186, 66, 11, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 4000,
+    "ExifImageHeight": 3000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 12.7623],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 36.1799],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1679.414
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0374.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:01 23:46:18",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 9064
+  },
+  "exif": {
+    "ExposureTime": 2,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 200,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:01 23:46:17",
+    "CreateDate": "2017:07:01 23:46:17",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.926696,
+    "ShutterSpeedValue": -1,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 3,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 205, 204, 76, 191, 7, 0, 11, 0, 1, 0, 0, 0, 102, 102, 161, 194, 8, 0, 11, 0, 1, 0, 0, 0, 205, 204, 204, 191, 9, 0, 11, 0, 1, 0, 0, 0, 102, 102, 158, 193, 10, 0, 11, 0, 1, 0, 0, 0, 102, 102, 163, 194, 11, 0, 11, 0, 1, 0, 0, 0, 51, 51, 139, 66, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 27.8327],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 29.9724],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1627.57
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0379.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:01 23:47:48",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 9201
+  },
+  "exif": {
+    "ExposureTime": 2,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 400,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:01 23:47:48",
+    "CreateDate": "2017:07:01 23:47:48",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 3.2694433333333333,
+    "ShutterSpeedValue": -1,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 3,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 154, 153, 25, 191, 7, 0, 11, 0, 1, 0, 0, 0, 205, 204, 149, 194, 8, 0, 11, 0, 1, 0, 0, 0, 154, 153, 217, 191, 9, 0, 11, 0, 1, 0, 0, 0, 102, 102, 174, 193, 10, 0, 11, 0, 1, 0, 0, 0, 205, 204, 151, 194, 11, 0, 11, 0, 1, 0, 0, 0, 51, 51, 135, 66, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 27.8427],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 30.0232],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1636.17
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0384.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:01 23:49:42",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 8816
+  },
+  "exif": {
+    "ExposureTime": 2,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 200,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:01 23:49:42",
+    "CreateDate": "2017:07:01 23:49:42",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.6738,
+    "ShutterSpeedValue": -1,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 3,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 7, 0, 11, 0, 1, 0, 0, 0, 205, 76, 2, 67, 8, 0, 11, 0, 1, 0, 0, 0, 51, 51, 243, 63, 9, 0, 11, 0, 1, 0, 0, 0, 102, 102, 130, 193, 10, 0, 11, 0, 1, 0, 0, 0, 0, 128, 1, 67, 11, 0, 11, 0, 1, 0, 0, 0, 205, 204, 145, 66, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 27.6582],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 30.3584],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1657.57
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0389.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:01 23:53:07",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 8649
+  },
+  "exif": {
+    "ExposureTime": 2,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 400,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:01 23:53:07",
+    "CreateDate": "2017:07:01 23:53:07",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 3.0932186666666666,
+    "ShutterSpeedValue": -1,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 3,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 7, 0, 11, 0, 1, 0, 0, 0, 205, 204, 70, 194, 8, 0, 11, 0, 1, 0, 0, 0, 0, 0, 192, 191, 9, 0, 11, 0, 1, 0, 0, 0, 0, 0, 184, 193, 10, 0, 11, 0, 1, 0, 0, 0, 0, 0, 76, 194, 11, 0, 11, 0, 1, 0, 0, 0, 205, 204, 132, 66, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 27.5983],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 30.3709],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1630.593
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0394.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:02 00:06:04",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 9060
+  },
+  "exif": {
+    "ExposureTime": 1.3,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 200,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:02 00:06:04",
+    "CreateDate": "2017:07:02 00:06:04",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.3708206666666665,
+    "ShutterSpeedValue": -0.378,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 0,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 205, 204, 204, 61, 7, 0, 11, 0, 1, 0, 0, 0, 102, 102, 248, 66, 8, 0, 11, 0, 1, 0, 0, 0, 205, 204, 204, 61, 9, 0, 11, 0, 1, 0, 0, 0, 51, 51, 227, 192, 10, 0, 11, 0, 1, 0, 0, 0, 102, 102, 248, 66, 11, 0, 11, 0, 1, 0, 0, 0, 205, 204, 162, 66, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 17.7625],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 17.3137],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1632.146
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0399.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:02 00:07:35",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 8983
+  },
+  "exif": {
+    "ExposureTime": 0.8,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 400,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:02 00:07:35",
+    "CreateDate": "2017:07:02 00:07:35",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.5202013333333335,
+    "ShutterSpeedValue": 0.321,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 0,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 154, 153, 153, 190, 7, 0, 11, 0, 1, 0, 0, 0, 102, 102, 2, 67, 8, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 63, 9, 0, 11, 0, 1, 0, 0, 0, 205, 204, 140, 193, 10, 0, 11, 0, 1, 0, 0, 0, 154, 153, 1, 67, 11, 0, 11, 0, 1, 0, 0, 0, 102, 102, 216, 66, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 17.7544],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 17.2126],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1652.746
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "ImageDescription": "DCIM\\100MEDIA\\DJI_0404.JPG",
+    "Make": "DJI\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Model": "FC220\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "v02.06.484\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "ModifyDate": "2017:07:02 00:08:42",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 182,
+    "GPSInfo": 686,
+    "XPComment": [48, 0, 46, 0, 57, 0, 46, 0, 49, 0, 52, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "XPKeywords": [78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 41972,
+    "ThumbnailLength": 9291
+  },
+  "exif": {
+    "ExposureTime": 1,
+    "FNumber": 2.2,
+    "ExposureProgram": 1,
+    "ISO": 400,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:07:02 00:08:41",
+    "CreateDate": "2017:07:02 00:08:41",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [0, 3, 2, 1]
+    },
+    "CompressedBitsPerPixel": 2.651235333333333,
+    "ShutterSpeedValue": 0,
+    "ApertureValue": 2.27,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 2.27,
+    "SubjectDistance": 0,
+    "MeteringMode": 2,
+    "LightSource": 3,
+    "Flash": 32,
+    "FocalLength": 4.73,
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [14, 0, 1, 0, 2, 0, 4, 0, 0, 0, 68, 74, 73, 0, 2, 0, 1, 0, 4, 0, 0, 0, 1, 2, 0, 0, 3, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 7, 0, 11, 0, 1, 0, 0, 0, 154, 153, 0, 67, 8, 0, 11, 0, 1, 0, 0, 0, 154, 153, 25, 63, 9, 0, 11, 0, 1, 0, 0, 0, 102, 102, 154, 193, 10, 0, 11, 0, 1, 0, 0, 0, 102, 102, 255, 66, 11, 0, 11, 0, 1, 0, 0, 0, 205, 204, 219, 66, 21, 0, 2, 0, 16, 0, 0, 0, 174, 0, 0, 0, 22, 0, 2, 0, 16, 0, 0, 0, 190, 0, 0, 0, 24, 0, 2, 0, 8, 0, 0, 0, 206, 0, 0, 0, 0, 0, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 48, 56, 90, 76, 69, 52, 67, 48, 48, 49, 48, 66, 57, 70, 0, 0, 65, 83, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 48, 49, 48]
+    },
+    "ColorSpace": 1,
+    "ExifImageWidth": 3000,
+    "ExifImageHeight": 4000,
+    "InteropOffset": 656,
+    "ExposureIndex": null,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": null,
+    "FocalLengthIn35mmFormat": 26,
+    "SceneCaptureType": 0,
+    "GainControl": 0,
+    "Contrast": 1,
+    "Saturation": 1,
+    "Sharpness": 1,
+    "DeviceSettingDescription": {
+      "type": "Buffer",
+      "data": [0, 0, 0, 0]
+    },
+    "SubjectDistanceRange": 0
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 17.7547],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 17.2141],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1671.746
+  },
+  "interoperability": {
+    "InteropIndex": "R98",
+    "InteropVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    }
+  },
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "Make": "Apple",
+    "Model": "iPhone 7",
+    "Orientation": 1,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "Software": "10.3.3",
+    "ModifyDate": "2017:08:18 09:40:26",
+    "YCbCrPositioning": 1,
+    "ExifOffset": 206,
+    "GPSInfo": 1670
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 2074,
+    "ThumbnailLength": 6222
+  },
+  "exif": {
+    "ExposureTime": 0.0033222591362126247,
+    "FNumber": 1.8,
+    "ExposureProgram": 2,
+    "ISO": 40,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 50, 49]
+    },
+    "DateTimeOriginal": "2017:08:18 09:40:26",
+    "CreateDate": "2017:08:18 09:40:26",
+    "ComponentsConfiguration": {
+      "type": "Buffer",
+      "data": [1, 2, 3, 0]
+    },
+    "ShutterSpeedValue": 8.233731739707835,
+    "ApertureValue": 1.6959937156323646,
+    "BrightnessValue": 6.976203067160233,
+    "ExposureCompensation": 0,
+    "MeteringMode": 3,
+    "Flash": 16,
+    "FocalLength": 3.99,
+    "SubjectArea": [1304, 1877, 753, 753],
+    "MakerNote": {
+      "type": "Buffer",
+      "data": [65, 112, 112, 108, 101, 32, 105, 79, 83, 0, 0, 1, 77, 77, 0, 13, 0, 1, 0, 9, 0, 0, 0, 1, 0, 0, 0, 5, 0, 2, 0, 7, 0, 0, 2, 46, 0, 0, 0, 176, 0, 3, 0, 7, 0, 0, 0, 104, 0, 0, 2, 222, 0, 4, 0, 9, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0, 9, 0, 0, 0, 1, 0, 0, 0, 233, 0, 6, 0, 9, 0, 0, 0, 1, 0, 0, 0, 233, 0, 7, 0, 9, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, 0, 10, 0, 0, 0, 3, 0, 0, 3, 70, 0, 12, 0, 10, 0, 0, 0, 2, 0, 0, 3, 94, 0, 13, 0, 9, 0, 0, 0, 1, 0, 0, 0, 33, 0, 14, 0, 9, 0, 0, 0, 1, 0, 0, 0, 4, 0, 16, 0, 9, 0, 0, 0, 1, 0, 0, 0, 1, 0, 20, 0, 9, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 98, 112, 108, 105, 115, 116, 48, 48, 79, 17, 2, 0, 8, 0, 10, 0, 10, 0, 10, 0, 11, 0, 11, 0, 11, 0, 11, 0, 11, 0, 11, 0, 10, 0, 10, 0, 9, 0, 8, 0, 7, 0, 7, 0, 11, 0, 12, 0, 13, 0, 13, 0, 14, 0, 14, 0, 14, 0, 14, 0, 14, 0, 14, 0, 13, 0, 11, 0, 10, 0, 10, 0, 9, 0, 7, 0, 84, 0, 82, 0, 82, 0, 81, 0, 78, 0, 77, 0, 78, 0, 75, 0, 70, 0, 72, 0, 74, 0, 71, 0, 69, 0, 66, 0, 62, 0, 59, 0, 215, 0, 200, 0, 208, 0, 250, 0, 1, 1, 11, 1, 254, 0, 226, 0, 230, 0, 232, 0, 234, 0, 226, 0, 217, 0, 206, 0, 188, 0, 169, 0, 207, 0, 195, 0, 203, 0, 225, 0, 253, 0, 0, 1, 250, 0, 232, 0, 237, 0, 238, 0, 238, 0, 233, 0, 221, 0, 212, 0, 194, 0, 172, 0, 224, 0, 212, 0, 218, 0, 239, 0, 255, 0, 255, 0, 250, 0, 239, 0, 231, 0, 230, 0, 228, 0, 224, 0, 218, 0, 205, 0, 193, 0, 189, 0, 222, 0, 208, 0, 225, 0, 236, 0, 0, 1, 3, 1, 1, 1, 230, 0, 232, 0, 230, 0, 239, 0, 240, 0, 229, 0, 221, 0, 207, 0, 196, 0, 223, 0, 213, 0, 229, 0, 233, 0, 255, 0, 5, 1, 6, 1, 217, 0, 242, 0, 231, 0, 230, 0, 232, 0, 232, 0, 229, 0, 212, 0, 175, 0, 212, 0, 205, 0, 223, 0, 236, 0, 255, 0, 2, 1, 5, 1, 238, 0, 247, 0, 247, 0, 245, 0, 245, 0, 247, 0, 239, 0, 221, 0, 191, 0, 207, 0, 220, 0, 236, 0, 248, 0, 251, 0, 251, 0, 254, 0, 248, 0, 243, 0, 247, 0, 244, 0, 243, 0, 246, 0, 238, 0, 222, 0, 205, 0, 184, 0, 203, 0, 214, 0, 228, 0, 238, 0, 242, 0, 244, 0, 240, 0, 237, 0, 245, 0, 239, 0, 237, 0, 242, 0, 235, 0, 221, 0, 202, 0, 180, 0, 201, 0, 215, 0, 224, 0, 236, 0, 236, 0, 237, 0, 236, 0, 234, 0, 239, 0, 233, 0, 229, 0, 234, 0, 231, 0, 223, 0, 207, 0, 173, 0, 193, 0, 207, 0, 223, 0, 230, 0, 232, 0, 231, 0, 231, 0, 229, 0, 233, 0, 225, 0, 221, 0, 223, 0, 222, 0, 220, 0, 208, 0, 177, 0, 200, 0, 209, 0, 216, 0, 219, 0, 225, 0, 228, 0, 228, 0, 227, 0, 229, 0, 225, 0, 219, 0, 219, 0, 216, 0, 211, 0, 205, 0, 180, 0, 188, 0, 189, 0, 194, 0, 214, 0, 216, 0, 223, 0, 230, 0, 232, 0, 227, 0, 217, 0, 209, 0, 208, 0, 206, 0, 199, 0, 194, 0, 183, 0, 191, 0, 194, 0, 194, 0, 193, 0, 193, 0, 200, 0, 212, 0, 214, 0, 208, 0, 199, 0, 189, 0, 188, 0, 186, 0, 179, 0, 176, 0, 0, 8, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12, 98, 112, 108, 105, 115, 116, 48, 48, 212, 1, 2, 3, 4, 5, 6, 7, 8, 85, 102, 108, 97, 103, 115, 85, 118, 97, 108, 117, 101, 85, 101, 112, 111, 99, 104, 89, 116, 105, 109, 101, 115, 99, 97, 108, 101, 16, 1, 19, 0, 0, 66, 1, 231, 28, 141, 29, 16, 0, 18, 59, 154, 202, 0, 8, 17, 23, 29, 35, 45, 47, 56, 58, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 255, 255, 231, 7, 0, 0, 25, 84, 255, 255, 237, 221, 0, 2, 147, 69, 0, 0, 1, 179, 0, 0, 9, 62, 0, 0, 1, 25, 0, 0, 1, 0, 0, 0, 0, 9, 0, 0, 0, 16]
+    },
+    "SubSecTimeOriginal": "169",
+    "SubSecTimeDigitized": "169",
+    "FlashpixVersion": {
+      "type": "Buffer",
+      "data": [48, 49, 48, 48]
+    },
+    "ColorSpace": 65535,
+    "ExifImageWidth": 4032,
+    "ExifImageHeight": 3024,
+    "SensingMethod": 2,
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "ExposureMode": 0,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": 2.9647058823529413,
+    "FocalLengthIn35mmFormat": 98,
+    "SceneCaptureType": 0,
+    "LensInfo": [3.99, 3.99, 1.8, 1.8],
+    "LensMake": "Apple",
+    "LensModel": "iPhone 7 back camera 3.99mm f/1.8"
+  },
+  "gps": {
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 3.36],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [104, 59, 47.12],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1589.1084337349398,
+    "GPSTimeStamp": [15, 40, 21.55],
+    "GPSSpeedRef": "K",
+    "GPSSpeed": 0,
+    "GPSImgDirectionRef": "T",
+    "GPSImgDirection": 287.50943396226415,
+    "GPSDestBearingRef": "T",
+    "GPSDestBearing": 287.50943396226415,
+    "GPSDateStamp": "2017:08:18",
+    "GPSHPositioningError": 65
+  },
+  "interoperability": {},
+  "makernote": {
+    "error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+  }
+}, {
+  "image": {
+    "Make": "SONY",
+    "Model": "ILCE-6000",
+    "XResolution": 300,
+    "YResolution": 300,
+    "ResolutionUnit": 2,
+    "Software": "Adobe Photoshop Lightroom 6.8 (Macintosh)",
+    "ModifyDate": "2017:08:23 13:59:07",
+    "ExifOffset": 204
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 900,
+    "ThumbnailLength": 13763
+  },
+  "exif": {
+    "ExposureTime": 0.0005,
+    "FNumber": 3.2,
+    "ExposureProgram": 1,
+    "ISO": 2500,
+    "SensitivityType": 2,
+    "RecommendedExposureIndex": 2500,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:05:19 18:17:39",
+    "CreateDate": "2017:05:19 18:17:39",
+    "ShutterSpeedValue": 10.965784,
+    "ApertureValue": 3.356144,
+    "BrightnessValue": 5.60703125,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 1.6953125,
+    "MeteringMode": 5,
+    "LightSource": 0,
+    "Flash": 16,
+    "FocalLength": 50,
+    "ColorSpace": 1,
+    "FocalPlaneXResolution": 2553.1914978027344,
+    "FocalPlaneYResolution": 2553.1914978027344,
+    "FocalPlaneResolutionUnit": 3,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": 1,
+    "FocalLengthIn35mmFormat": 75,
+    "SceneCaptureType": 0,
+    "Contrast": 0,
+    "Saturation": 0,
+    "Sharpness": 0,
+    "LensInfo": [50, 50, 1.8, 1.8],
+    "LensModel": "E 50mm F1.8 OSS"
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 17.7625],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 17.3137],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1632.146
+  },
+  "interoperability": {},
+  "makernote": {}
+}, {
+  "image": {
+    "Make": "SONY",
+    "Model": "ILCE-6000",
+    "XResolution": 300,
+    "YResolution": 300,
+    "ResolutionUnit": 2,
+    "Software": "Adobe Photoshop Lightroom 6.8 (Macintosh)",
+    "ModifyDate": "2017:08:23 13:59:09",
+    "ExifOffset": 204
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 774,
+    "ThumbnailLength": 15503
+  },
+  "exif": {
+    "ExposureTime": 0.005,
+    "ExposureProgram": 1,
+    "ISO": 2500,
+    "SensitivityType": 2,
+    "RecommendedExposureIndex": 2500,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:05:19 18:29:04",
+    "CreateDate": "2017:05:19 18:29:04",
+    "ShutterSpeedValue": 7.643856,
+    "BrightnessValue": -1.3890625,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 0,
+    "MeteringMode": 5,
+    "LightSource": 0,
+    "Flash": 16,
+    "ColorSpace": 1,
+    "FocalPlaneXResolution": 2553.1914978027344,
+    "FocalPlaneYResolution": 2553.1914978027344,
+    "FocalPlaneResolutionUnit": 3,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": 1,
+    "SceneCaptureType": 0,
+    "Contrast": 0,
+    "Saturation": 0,
+    "Sharpness": 0,
+    "LensModel": "----"
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 45, 15.7295],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 0, 40.9347],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1652.606
+  },
+  "interoperability": {},
+  "makernote": {}
+}, {
+  "image": {
+    "Make": "SONY",
+    "Model": "ILCE-6000",
+    "XResolution": 300,
+    "YResolution": 300,
+    "ResolutionUnit": 2,
+    "Software": "Adobe Photoshop Lightroom 6.8 (Macintosh)",
+    "ModifyDate": "2017:08:23 13:59:10",
+    "ExifOffset": 204
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 774,
+    "ThumbnailLength": 16893
+  },
+  "exif": {
+    "ExposureTime": 0.1,
+    "ExposureProgram": 1,
+    "ISO": 100,
+    "SensitivityType": 2,
+    "RecommendedExposureIndex": 100,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:05:19 18:40:39",
+    "CreateDate": "2017:05:19 18:40:39",
+    "ShutterSpeedValue": 3.321928,
+    "BrightnessValue": -1.65859375,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 0,
+    "MeteringMode": 5,
+    "LightSource": 0,
+    "Flash": 16,
+    "ColorSpace": 1,
+    "FocalPlaneXResolution": 2553.1914978027344,
+    "FocalPlaneYResolution": 2553.1914978027344,
+    "FocalPlaneResolutionUnit": 3,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": 1,
+    "SceneCaptureType": 0,
+    "Contrast": 0,
+    "Saturation": 0,
+    "Sharpness": 0,
+    "LensModel": "----"
+  },
+  "gps": {},
+  "interoperability": {},
+  "makernote": {}
+}, {
+  "image": {
+    "Make": "SONY",
+    "Model": "ILCE-6000",
+    "XResolution": 300,
+    "YResolution": 300,
+    "ResolutionUnit": 2,
+    "Software": "Adobe Photoshop Lightroom 6.8 (Macintosh)",
+    "ModifyDate": "2017:08:23 13:59:13",
+    "ExifOffset": 204
+  },
+  "thumbnail": {
+    "Compression": 6,
+    "XResolution": 72,
+    "YResolution": 72,
+    "ResolutionUnit": 2,
+    "ThumbnailOffset": 774,
+    "ThumbnailLength": 12402
+  },
+  "exif": {
+    "ExposureTime": 0.0125,
+    "ExposureProgram": 1,
+    "ISO": 1250,
+    "SensitivityType": 2,
+    "RecommendedExposureIndex": 1250,
+    "ExifVersion": {
+      "type": "Buffer",
+      "data": [48, 50, 51, 48]
+    },
+    "DateTimeOriginal": "2017:05:19 19:09:14",
+    "CreateDate": "2017:05:19 19:09:14",
+    "ShutterSpeedValue": 6.321928,
+    "BrightnessValue": -4.03359375,
+    "ExposureCompensation": 0,
+    "MaxApertureValue": 0,
+    "MeteringMode": 5,
+    "LightSource": 0,
+    "Flash": 16,
+    "ColorSpace": 1,
+    "FocalPlaneXResolution": 2553.1914978027344,
+    "FocalPlaneYResolution": 2553.1914978027344,
+    "FocalPlaneResolutionUnit": 3,
+    "FileSource": {
+      "type": "Buffer",
+      "data": [3]
+    },
+    "SceneType": {
+      "type": "Buffer",
+      "data": [1]
+    },
+    "CustomRendered": 0,
+    "ExposureMode": 1,
+    "WhiteBalance": 0,
+    "DigitalZoomRatio": 1,
+    "SceneCaptureType": 0,
+    "Contrast": 0,
+    "Saturation": 0,
+    "Sharpness": 0,
+    "LensModel": "----"
+  },
+  "gps": {
+    "GPSVersionID": [2, 3, 0, 0],
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": [39, 44, 24.3801],
+    "GPSLongitudeRef": "W",
+    "GPSLongitude": [105, 1, 16.6831],
+    "GPSAltitudeRef": 0,
+    "GPSAltitude": 1715.021
+  },
+  "interoperability": {},
+  "makernote": {}
+}]
