@@ -1,7 +1,4 @@
-const knex = require('knex');
-
 const path = require('path');
-
 const transformer = require('knex-csv-transformer').transformer;
 const transfomerHeader = require('knex-csv-transformer').transfomerHeader;
 
