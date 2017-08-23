@@ -33,8 +33,8 @@ exports.up = (knex, Promise) => Promise.all([
     table.string('url');
     table.string('name');
     table.string('description');
-    table.string('aperture');
-    table.string('iso_speed');
+    table.decimal('aperture_value'); // exif.ApertureValue
+    table.string('iso'); // exif.ISO
     table.string('exposure_mode');
     table.string('exposure_time_seconds');
     table.string('content_creation_date');
