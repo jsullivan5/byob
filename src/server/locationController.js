@@ -13,6 +13,29 @@ const getLocations = (req, res) => {
     });
 };
 
+const getLocation = (req, res) => {
+  const locationId = parseInt(req.params.id, 10);
+
+  DB('locations')
+    .select('*')
+    .where({
+      id: locationId,
+    })
+    .then((location) => {
+      res.status(200).json({
+        status: 'Success',
+        data: location,
+      });
+    })
+    .catch((error) => {
+      res.status(500).json({
+        status: 'Error',
+        data: error,
+      });
+    });
+};
+
 module.exports = {
   getLocations,
+  getLocation,
 };

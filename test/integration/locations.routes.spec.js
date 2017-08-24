@@ -51,6 +51,23 @@ describe('Testing Locations API Routes', () => {
           done();
         });
     });
-    // it();
+  });
+  describe('GET /api/v1/locations:/id', () => {
+    it('should respond with a specific location', (done) => {
+      chai.request(server)
+        .get('/api/v1/locations/4198')
+        .end((err, res) => {
+          should.not.exist(err);
+          res.should.have.status(200);
+          res.body.status.should.equal('Success');
+          res.body.data.should.be.a('array');
+          res.type.should.equal('application/json');
+          res.body.data.length.should.equal(1);
+          res.body.data[0].should.include.keys(
+            'id', 'name', 'address', 'description', 'insider_tips', 'lat', 'long', 'altitude');
+          // res.body.dat
+          done();
+        });
+    });
   });
 });
