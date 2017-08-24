@@ -23,13 +23,14 @@ exports.up = (knex, Promise) => Promise.all([
     table.string('insider_tips');
     table.specificType('lat', 'numeric');
     table.specificType('long', 'numeric');
+    table.specificType('altitude', 'numeric');
   }),
   knex.schema.createTable('photos', (table) => {
     table.increments('id').primary();
     table.integer('location_id').unsigned();
-    // table.foreign('location_id').references('locations.id');
+    table.foreign('location_id').references('locations.id');
     table.integer('camera_id').unsigned();
-    // table.foreign('camera_id').references('cameras.id');
+    table.foreign('camera_id').references('cameras.id');
     table.string('url');
     table.string('name');
     table.string('description');
@@ -37,7 +38,7 @@ exports.up = (knex, Promise) => Promise.all([
     table.integer('iso').unsigned();
     table.integer('exposure_mode').unsigned();
     table.float('shutter_speed');
-    table.dateTime('content_creation_date');
+    table.string('content_creation_date');
     table.json('gps');
     table.string('acquisition_model');
     table.string('acquisition_make');
@@ -49,7 +50,7 @@ exports.up = (knex, Promise) => Promise.all([
 ]);
 
 exports.down = (knex, Promise) => Promise.all([
+  knex.schema.dropTable('photos'),
   knex.schema.dropTable('cameras'),
   knex.schema.dropTable('locations'),
-  knex.schema.dropTable('photos'),
 ]);

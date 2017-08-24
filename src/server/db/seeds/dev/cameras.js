@@ -4,7 +4,7 @@ const transfomerHeader = require('knex-csv-transformer').transfomerHeader;
 
 exports.seed = transformer.seed({
   table: 'cameras',
-  file: path.join(__dirname, '../../csv/camera_dataset.csv'),
+  file: path.join(__dirname, '../../raw/camera_dataset.csv'),
   transformers: [
     transfomerHeader('model', 'model'),
     transfomerHeader('max_resolution', 'max_resolution'),
