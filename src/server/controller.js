@@ -1,7 +1,7 @@
-const DB = require('./knex');
-
-// Controller functions...
-
+// const DB = require('./knex');
+//
+// // Controller functions...
+//
 module.exports = {
   // exFunc: exFunc,
 };

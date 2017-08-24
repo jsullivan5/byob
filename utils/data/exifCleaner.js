@@ -5,6 +5,8 @@ const seedData = require('../../src/server/db/raw/exif.json');
 const dms2dec = require('dms2dec');
 const faker = require('faker');
 
+const locationData = [];
+
 class ExifData {
   constructor(data) {
     if (data.image.Make === 'SONY') this.camera_id = 1;
@@ -46,8 +48,6 @@ class GeoData {
   }
 }
 
-const locationData = [];
-
 const data = seedData.map((image) => {
   const locationId = faker.random.number();
   const exif = new ExifData(image);
@@ -57,17 +57,11 @@ const data = seedData.map((image) => {
 });
 
 fs.writeFile(path.join(__dirname, '../../src/server/db/raw/cleanedExifData.json'), JSON.stringify(data), 'utf8', (err) => {
-  if (err) {
-    return console.log(err);
-  }
-  console.log('File was saved.');
+  if (err) throw (new Error(err));
   return true;
 });
 
 fs.writeFile(path.join(__dirname, '../../src/server/db/raw/cleanedLocData.json'), JSON.stringify(locationData), 'utf8', (err) => {
-  if (err) {
-    return console.log(err);
-  }
-  console.log('File was saved.');
+  if (err) throw (new Error(err));
   return true;
 });
