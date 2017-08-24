@@ -1,10 +1,8 @@
 const express = require('express');
 
 const router = express.Router();
-// const controller = require('./controller');
-//
-// // Insert Routes here
-//
-// // router.get('/v1/...', controller.exFunc)
-//
+const cameraController = require('./cameraController');
+
+router.get('/v1/cameras', cameraController.getCameras);
+
 module.exports = router;

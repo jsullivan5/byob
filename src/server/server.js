@@ -12,7 +12,7 @@ app.set('port', process.env.PORT || 3000);
 
 app.use(bodyParser.json());
 
-app.use(('/api', router));
+app.use('/api', router);
 
 app.get('/', (req, res) => {
   res.status(200).send('BYOB, fools! HAHAHAH...');
