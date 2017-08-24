@@ -60,7 +60,7 @@ describe('Testing Cameras API Routes', () => {
           res.body.status.should.eql('success');
           // the JSON response body should have a
           // key-value pair of {"data": [2 user objects]}
-          res.body.data.length.should.eql(1041);
+          res.body.data.length.should.eql(1042);
           // the first object in the data array should
           // have the right keys
           // res.body.data[0].should.include.keys(
