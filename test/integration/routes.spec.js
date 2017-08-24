@@ -1,6 +1,6 @@
 /* global describe */
 /* global it */
-
+process.env.NODE_ENV = 'test';
 const chai = require('chai');
 
 const should = chai.should();
@@ -21,6 +21,7 @@ describe('Client Routes', () => {
       });
   });
 });
+
 
 describe('API Routes', () => {
   it('should send text to home page', (done) => {
