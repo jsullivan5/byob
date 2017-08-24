@@ -35,7 +35,7 @@
     "exif": "^0.6.0",
     "express": "^4.15.4",
     "faker": "^4.1.0",
-    "iconv-lite": "file:node_modules/iconv-lite",
+    "iconv-lite": "^0.4.18",
     "knex": "^0.13.0",
     "knex-csv-transformer": "^1.0.4"
   }
