@@ -1,6 +1,7 @@
 /* global describe */
 /* global it */
 /* global beforeEach */
+/* global afterEach */
 
 process.env.NODE_ENV = 'test';
 const chai = require('chai');
@@ -36,6 +37,13 @@ describe('Testing API Routes', () => {
                 done();
               });
           });
+      });
+  });
+
+  afterEach((done) => {
+    knex.migrate.rollback()
+      .then(() => {
+        done();
       });
   });
 
