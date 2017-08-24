@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(('/api', router));
 
 app.get('/', (req, res) => {
-  res.status(200).send('BYOB, fools!');
+  res.status(200).send('BYOB, fools! HAHAHAH...');
 });
 
 app.listen(app.get('port'), () => {
