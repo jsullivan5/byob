@@ -42,12 +42,15 @@ describe('Testing Locations API Routes', () => {
         .end((err, res) => {
           should.not.exist(err);
           res.should.have.status(200);
-          res.type.should.equal('application/json');
           res.body.status.should.equal('Success');
+          res.body.data.should.be.a('array');
+          res.type.should.equal('application/json');
           res.body.data.length.should.equal(28);
-          res.body.data[0].should.include.keys('id');
+          res.body.data[0].should.include.keys(
+            'id', 'name', 'address', 'description', 'insider_tips', 'lat', 'long', 'altitude');
           done();
         });
     });
+    // it();
   });
 });
