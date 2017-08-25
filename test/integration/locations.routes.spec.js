@@ -73,5 +73,17 @@ describe('Testing Locations API Routes', () => {
           done();
         });
     });
+    it('should respond with a 500 error if resource does not exist.', (done) => {
+      chai.request(server)
+        .get('/api/v1/locations/fakeRoute')
+        .end((err, res) => {
+          should.exist(err);
+          res.should.have.status(500);
+          res.body.status.should.equal('Error');
+          res.body.data.should.be.a('object');
+          res.type.should.equal('application/json');
+          done();
+        });
+    });
   });
 });
