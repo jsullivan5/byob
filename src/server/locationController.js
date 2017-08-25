@@ -35,7 +35,12 @@ const getLocation = (req, res) => {
     });
 };
 
+const postLocation = (req, res) => {
+  res.send('testing');
+};
+
 module.exports = {
   getLocations,
   getLocation,
+  postLocation,
 };
