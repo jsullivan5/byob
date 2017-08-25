@@ -3,6 +3,7 @@
     "rules": {
       "no-multi-spaces": [0],
       "func-names": [0],
-      "no-unused-vars": [0]
+      "no-unused-vars": [0],
+      "no-restricted-syntax": [0]
     }
 }

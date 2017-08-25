@@ -37,6 +37,14 @@ const getLocation = (req, res) => {
 
 const postLocation = (req, res) => {
   const newLocation = req.body;
+
+  for (const requiredParameter of ['name', 'address', 'description', 'insider_tips', 'lat', 'long']) {
+    if (!newLocation[requiredParameter]) {
+      return res.status(422).json({
+        error: `Missing required parameter ${requiredParameter}`,
+      });
+    }
+  }
   DB('locations')
     .insert(newLocation)
     .returning('*')
