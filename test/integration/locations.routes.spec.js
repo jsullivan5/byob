@@ -142,4 +142,32 @@ describe('Testing Locations API Routes', () => {
         });
     });
   });
+  describe('PUT /api/locations/:id', () => {
+    it('should respond with a success message along with a single user that was updated');
+    DB('locations')
+      .select('*')
+      .then((location) => {
+        const locationObject = location[0];
+        chai.request(server)
+          .put(`/api/v1/locations/${locationObject.id}`)
+          .send({
+            address: '456 McFakey St.',
+            description: 'new description',
+            insider_tips: 'new tips',
+            lat: '50',
+            long: '50',
+            altitude: '50',
+          })
+          .end((err, res) => {
+            should.not.exist(err);
+            res.status.should.equal(200);
+            res.type.should.equal('application/json');
+            res.body.status.should.equal('Success');
+            res.body.data[0].should.include.keys('id', 'name', 'address', 'description', 'insider_tips', 'lat', 'long', 'altitude');
+            const newLocation = res.body.data[0];
+            newLocation.address.should.not.equal(locationObject.address);
+            newLocation.address.should.equal('456 McFakey St.');
+          });
+      });
+  });
 });
