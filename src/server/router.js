@@ -6,5 +6,6 @@ const locationController = require('./locationController');
 router.get('/v1/locations', locationController.getLocations);
 router.post('/v1/locations', locationController.postLocation);
 router.get('/v1/locations/:id', locationController.getLocation);
+router.put('/v1/locations/:id', locationController.putLocation);
 
 module.exports = router;
