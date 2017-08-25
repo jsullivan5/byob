@@ -27,7 +27,7 @@ describe('Testing Locations API Routes', () => {
           });
       });
   });
-
+  //
   // afterEach((done) => {
   //   knex.migrate.rollback()
   //     .then(() => {
@@ -122,6 +122,24 @@ describe('Testing Locations API Routes', () => {
             });
         });
     });
+    it('should return a 422 error if required parameters are missing.', (done) => {
+      chai.request(server)
+        .post('/api/v1/locations')
+        .send({
+          // Missing name
+          address: '123 Faux Dr.',
+          description: 'Near the Whackamole game',
+          insider_tips: 'Play lazer tag',
+          lat: '40',
+          long: '40',
+          altitude: '40',
+        })
+        .end((err, res) => {
+          res.should.have.status(422);
+          res.body.status.should.equal('Error');
+          res.body.data = '"Missing required parameter name"';
+          done();
+        });
+    });
   });
-  describe();
 });

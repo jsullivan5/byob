@@ -41,7 +41,8 @@ const postLocation = (req, res) => {
   for (const requiredParameter of ['name', 'address', 'description', 'insider_tips', 'lat', 'long']) {
     if (!newLocation[requiredParameter]) {
       return res.status(422).json({
-        error: `Missing required parameter ${requiredParameter}`,
+        status: 'Error',
+        data: `Missing required parameter ${requiredParameter}`,
       });
     }
   }
