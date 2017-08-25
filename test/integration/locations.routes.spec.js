@@ -144,7 +144,7 @@ describe('Testing Locations API Routes', () => {
   });
   describe('PUT /api/locations/:id', () => {
     it('should respond with a success message along with a single user that was updated');
-    DB('locations')
+    knex('locations')
       .select('*')
       .then((location) => {
         const locationObject = location[0];
