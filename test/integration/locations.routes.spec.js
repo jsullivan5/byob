@@ -65,7 +65,11 @@ describe('Testing Locations API Routes', () => {
           res.body.data.length.should.equal(1);
           res.body.data[0].should.include.keys(
             'id', 'name', 'address', 'description', 'insider_tips', 'lat', 'long', 'altitude');
-          // res.body.dat
+          res.body.data[0].id.should.equal(4198);
+          res.body.data[0].name.should.equal('Crist LLC');
+          res.body.data[0].address.should.equal('5278 Gottlieb Groves');
+          res.body.data[0].lat.should.equal('39.740081583333335');
+          res.body.data[0].long.should.equal('39.740081583333335');
           done();
         });
     });
