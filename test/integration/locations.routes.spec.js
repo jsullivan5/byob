@@ -28,12 +28,12 @@ describe('Testing Locations API Routes', () => {
       });
   });
 
-  afterEach((done) => {
-    knex.migrate.rollback()
-      .then(() => {
-        done();
-      });
-  });
+  // afterEach((done) => {
+  //   knex.migrate.rollback()
+  //     .then(() => {
+  //       done();
+  //     });
+  // });
 
   describe('GET /api/v1/locations', () => {
     it('should respond with all the locations', (done) => {
@@ -100,23 +100,26 @@ describe('Testing Locations API Routes', () => {
           altitude: '40',
         })
         .end((err, res) => {
+          const { id } = res.body.data[0];
+          const { name } = res.body.data[0];
+
           should.not.exist(err);
           res.status.should.equal(201);
           res.type.should.equal('application/json');
           res.body.status.should.equal('Success');
           res.body.data[0].should.include.keys('id', 'name', 'address', 'description', 'insider_tips', 'lat', 'long', 'altitude');
-          // chai.request(server)
-          // .get('/api/v1/locations/:')
-          // .end((err, response) => {
-          //   response.should.have.status(200);
-          //   response.should.be.json;
-          //   response.body.should.be.a('array');
-          //   response.body.length.should.equal(1);
-          //   response.body[2].id.should.equal(3);
-          //   response.body[2].should.have.property('name');
-          //   response.body[2].name.should.equal('beers');
-          //   response.body[2].should.have.property('created_at');
-          done();
+          chai.request(server)
+            .get(`/api/v1/locations/${id}`)
+            .end((error, response) => {
+              response.should.have.status(200);
+              res.type.should.equal('application/json');
+              response.body.data.should.be.a('array');
+              response.body.data.length.should.equal(1);
+              response.body.data[0].id.should.equal(id);
+              res.body.data[0].name.should.equal(name);
+              res.body.data[0].should.include.keys('id', 'name', 'address', 'description', 'insider_tips', 'lat', 'long', 'altitude');
+              done();
+            });
         });
     });
   });

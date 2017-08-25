@@ -36,7 +36,22 @@ const getLocation = (req, res) => {
 };
 
 const postLocation = (req, res) => {
-  res.send('testing');
+  const newLocation = req.body;
+  DB('locations')
+    .insert(newLocation)
+    .returning('*')
+    .then((location) => {
+      res.status(201).json({
+        status: 'Success',
+        data: location,
+      });
+    })
+    .catch((err) => {
+      res.status(500).json({
+        status: 'Error',
+        data: err,
+      });
+    });
 };
 
 module.exports = {
