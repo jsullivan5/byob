@@ -51,3 +51,4 @@ Gemfile.lock
 
 # Secret stuff
 *apiKey
+.env
