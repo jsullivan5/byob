@@ -182,4 +182,29 @@ describe('Testing Locations API Routes', () => {
         });
     });
   });
+  describe('DELETE /api/v1/locations/:id', () => {
+    it('should respond with a success message and a single location that was deleted', (done) => {
+      knex('locations')
+        .select('*')
+        .then((locations) => {
+          const locationObject = locations[0];
+          const lengthB4Delete = locations.length;
+          chai.request(server)
+            .delete(`/api/v1/locations/${locationObject.id}`)
+            .end((err, res) => {
+              should.not.exist(err);
+              res.status.should.equal(204);
+              done();
+              res.type.should.equal('application/json');
+              res.body.status.should.equal('Success');
+              res.body.data[0].should.include.keys('id', 'name', 'address', 'description', 'insider_tips', 'lat', 'long', 'altitude');
+              knex('locations').select('*')
+                .then((updatedLocations) => {
+                  updatedLocations.length.should.equal(lengthB4Delete - 1);
+                  done();
+                });
+            });
+        });
+    });
+  });
 });
