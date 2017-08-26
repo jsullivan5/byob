@@ -80,15 +80,15 @@ describe('Testing Cameras API Routes', () => {
         });
     });
 
-    it.skip('should respond with an error message indicating the folder does not exist', (done) => {
+    it('should respond with an error message indicating the camera does not exist', (done) => {
       chai.request(server)
-        .get('/api/v1/cameras/2')
+        .get('/api/v1/cameras/2000')
         .end((err, res) => {
           should.exist(err);
           res.status.should.eql(404);
           res.type.should.eql('application/json');
           res.body.should.include.keys('error');
-          res.body.error.should.eql('That folder does not exist.');
+          res.body.error.should.eql('That camera does not exist.');
           done();
         });
     });

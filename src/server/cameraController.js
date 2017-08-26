@@ -1,7 +1,6 @@
 const DB = require('./knex');
 
 const getCameras = (req, res) => {
-  console.log('get cameras');
   DB('cameras').select()
     .then(cameras => res.status(200).json({
       status: 'success',
@@ -14,7 +13,6 @@ const getCameras = (req, res) => {
 };
 
 const getCamerasById = (req, res) => {
-  console.log('here');
   DB('cameras').where('id', req.params.id).select()
     .then(camera => (camera.length ? res.status(200).json({
       status: 'success',
