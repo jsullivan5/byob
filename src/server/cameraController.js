@@ -26,7 +26,30 @@ const getCamerasById = (req, res) => {
     }));
 };
 
+const addCamera = (req, res) => {
+  const newCamera = req.body;
+  for (const requiredParameter of ['model']) {
+    if (!newCamera[requiredParameter]) {
+      return res.status(422).json({
+        error: `Missing required parameter of ${requiredParameter}`,
+      });
+    }
+  }
+
+  DB('cameras').insert(req.body, '*')
+    .then(camera => res.status(201).json({
+      status: 'success',
+      message: 'New camera successfully created.',
+      data: camera[0],
+    }))
+    .catch(error => res.status(500).json({
+      status: 'error',
+      data: error,
+    }));
+};
+
 module.exports = {
   getCameras,
   getCamerasById,
+  addCamera,
 };
