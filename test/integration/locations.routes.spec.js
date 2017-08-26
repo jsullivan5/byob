@@ -167,6 +167,16 @@ describe('Testing Locations API Routes', () => {
               const newLocation = res.body.data[0];
               newLocation.address.should.not.equal(locationObject.address);
               newLocation.address.should.equal('456 McFakey St.');
+              newLocation.description.should.not.equal(locationObject.description);
+              newLocation.description.should.equal('new description');
+              newLocation.insider_tips.should.not.equal(locationObject.insider_tips);
+              newLocation.insider_tips.should.equal('new tips');
+              newLocation.lat.should.not.equal(locationObject.lat);
+              newLocation.lat.should.equal('50');
+              newLocation.long.should.not.equal(locationObject.long);
+              newLocation.long.should.equal('50');
+              newLocation.altitude.should.not.equal(locationObject.altitude);
+              newLocation.altitude.should.equal('50');
               done();
             });
         });

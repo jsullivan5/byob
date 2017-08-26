@@ -65,6 +65,7 @@ const postLocation = (req, res) => {
 
 const putLocation = (req, res) => {
   const locationId = parseInt(req.params.id, 10);
+
   DB('locations')
     .update({
       name: req.body.name,
