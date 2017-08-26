@@ -18,7 +18,26 @@ const getAuth = (req, res) => {
   res.status(201).json({ token });
 };
 
-const checkAuth = (req, res) => true;
+const checkAuth = (req, res, next) => {
+  const secret = process.env.SECRET_KEY;
+  const token = req.body.token || req.params.token || req.headers.authorization;
+
+  if (!token) {
+    return res.status(403).send('You must have an authorization token');
+  }
+  try {
+    const decoded = jwt.verify(token, secret);
+    if (!decoded.admin) {
+      return res.status(403).send('You must be an administrator to use this endpoint');
+    }
+    return next();
+  } catch (err) {
+    return res.status(403).json({
+      status: 'Invalid Credentials',
+      error: err,
+    });
+  }
+};
 
 module.exports = {
   getAuth,
