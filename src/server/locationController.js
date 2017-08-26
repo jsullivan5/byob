@@ -1,7 +1,8 @@
 const DB = require('./knex');
 
 const getLocations = (req, res) => {
-  DB('locations').select('*')
+  DB('locations')
+    .select('*')
     .then((locations) => {
       locations.length ?
         res.status(200).json({
@@ -24,7 +25,8 @@ const getLocations = (req, res) => {
 };
 
 const getLocationById = (req, res) => {
-  DB('locations').select().where('id', req.params.id)
+  DB('locations').select()
+    .where('id', parseInt(req.params.id, 10))
     .then((location) => {
       location.length ?
         res.status(200).json({
@@ -48,12 +50,13 @@ const getLocationById = (req, res) => {
 
 const postLocation = (req, res) => {
   const newLocation = req.body;
-
   for (const requiredParameter of ['name', 'address', 'lat', 'long']) {
     if (!newLocation[requiredParameter]) {
       return res.status(422).json({
-        status: 'Error',
-        message: `Missing required parameter ${requiredParameter}.`,
+        status: 'error',
+        data: {
+          error: `Missing required parameter ${requiredParameter}.`,
+        },
       });
     }
   }
@@ -62,14 +65,14 @@ const postLocation = (req, res) => {
     .returning('*')
     .then((location) => {
       res.status(201).json({
-        status: 'Success',
+        status: 'success',
         data: location,
       });
     })
-    .catch((err) => {
+    .catch((error) => {
       res.status(500).json({
-        status: 'Error',
-        data: err,
+        status: 'error',
+        data: error,
       });
     });
   return true;

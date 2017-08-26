@@ -87,10 +87,11 @@ describe('Testing Locations API Routes', () => {
     });
   });
   describe('POST /api/v1/locations', () => {
-    it.skip('should respond with a success message along with a single location that was added', (done) => {
+    it('should respond with a success message along with a single location that was added', (done) => {
       chai.request(server)
         .post('/api/v1/locations')
         .send({
+          id: 1111,
           name: 'Chucky Cheese',
           address: '123 Faux Dr.',
           description: 'Near the Whackamole game',
@@ -100,29 +101,18 @@ describe('Testing Locations API Routes', () => {
           altitude: '40',
         })
         .end((err, res) => {
-          const { id } = res.body.data[0];
-          const { name } = res.body.data[0];
-
           should.not.exist(err);
           res.status.should.equal(201);
           res.type.should.equal('application/json');
-          res.body.status.should.equal('Success');
+          res.body.status.should.equal('success');
+          res.body.data.length.should.equal(1);
           res.body.data[0].should.include.keys('id', 'name', 'address', 'description', 'insider_tips', 'lat', 'long', 'altitude');
-          chai.request(server)
-            .get(`/api/v1/locations/${id}`)
-            .end((error, response) => {
-              response.should.have.status(200);
-              res.type.should.equal('application/json');
-              response.body.data.should.be.a('array');
-              response.body.data.length.should.equal(1);
-              response.body.data[0].id.should.equal(id);
-              res.body.data[0].name.should.equal(name);
-              res.body.data[0].should.include.keys('id', 'name', 'address', 'description', 'insider_tips', 'lat', 'long', 'altitude');
-              done();
-            });
+          res.body.data[0].id.should.equal(1111);
+          res.body.data[0].name.should.equal('Chucky Cheese');
+          done();
         });
     });
-    it.skip('should return a 422 error if required parameters are missing.', (done) => {
+    it('should return a 422 error if required parameters are missing.', (done) => {
       chai.request(server)
         .post('/api/v1/locations')
         .send({
@@ -137,8 +127,8 @@ describe('Testing Locations API Routes', () => {
         .end((err, res) => {
           should.exist(err);
           res.should.have.status(422);
-          res.body.status.should.equal('Error');
-          res.body.message = 'Missing required parameter name.';
+          res.body.status.should.equal('error');
+          res.body.data.error.should.equal('Missing required parameter name.');
           done();
         });
     });
