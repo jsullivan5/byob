@@ -5,7 +5,8 @@ const locationController = require('./locationController');
 const authController = require('./authController');
 
 router.get('/v1/locations', locationController.getLocations);
-router.post('/v1/locations', locationController.postLocation);
+router.post('/v1/locations', authController.checkAuth,
+  locationController.postLocation);
 router.get('/v1/locations/:id', locationController.getLocation);
 router.put('/v1/locations/:id', locationController.putLocation);
 router.delete('/v1/locations/:id', locationController.deleteLocation);

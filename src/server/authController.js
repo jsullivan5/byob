@@ -27,10 +27,11 @@ const checkAuth = (req, res, next) => {
   }
   try {
     const decoded = jwt.verify(token, secret);
-    if (!decoded.admin) {
-      return res.status(403).send('You must be an administrator to use this endpoint');
+    if (decoded.admin) {
+      delete req.body.token;
+      return next();
     }
-    return next();
+    return res.status(403).send('You must be an administrator to use this endpoint');
   } catch (err) {
     return res.status(403).json({
       status: 'Invalid Credentials',
