@@ -35,15 +35,6 @@ describe('Testing Cameras API Routes', () => {
       });
   });
 
-  it('should send text to home page', (done) => {
-    chai.request(server)
-      .get('/')
-      .end((err, response) => {
-        response.should.have.status(200);
-        done();
-      });
-  });
-
   describe('GET /api/v1/cameras', () => {
     it('should respond with all cameras', (done) => {
       chai.request(server)
@@ -80,7 +71,7 @@ describe('Testing Cameras API Routes', () => {
         });
     });
 
-    it('should respond with an error message indicating the camera does not exist', (done) => {
+    it('should respond with a 404 error if camera is not found.', (done) => {
       chai.request(server)
         .get('/api/v1/cameras/2000')
         .end((err, res) => {
@@ -125,7 +116,7 @@ describe('Testing Cameras API Routes', () => {
         });
     });
 
-    it('should respond with a error message if a required param is missing', (done) => {
+    it('should return a 422 error if required parameters are missing.', (done) => {
       chai.request(server)
         .post('/api/v1/cameras')
         .send({
@@ -139,7 +130,36 @@ describe('Testing Cameras API Routes', () => {
           res.status.should.equal(422);
           res.type.should.equal('application/json');
           res.body.status.should.eql('error');
-          res.body.message.should.equal('Missing required parameter of model.');
+          res.body.data.error.should.equal('Missing required parameter of (model).');
+          done();
+        });
+    });
+  });
+
+  describe('PUT /api/cameras/:id', () => {
+    it('should respond with a success message along with a single camera that was updated', (done) => {
+      chai.request(server)
+        .put('/api/v1/cameras/1')
+        .send({
+          model: 'Apple iPhone 1000',
+          max_resolution: 760,
+          low_resolution: 420,
+        })
+        .end((err, res) => {
+          should.not.exist(err);
+          res.status.should.equal(200);
+          res.type.should.equal('application/json');
+          res.body.status.should.equal('success');
+          res.body.data[0].should.include.keys(
+            'dimensions', 'effective_pixels', 'id', 'low_resolution',
+            'macro_focus_range', 'max_resolution', 'model', 'normal_focus_range', 'price',
+            'storage_included', 'weight', 'zoom_tele', 'zoom_wide');
+          res.body.data[0].id.should.equal(1);
+          res.body.data[0].model.should.equal('Apple iPhone 1000');
+          res.body.data[0].max_resolution.should.equal(760);
+          res.body.data[0].low_resolution.should.equal(420);
+          res.body.data[0].effective_pixels.should.equal(0);
+          res.body.data[0].zoom_wide.should.equal(38);
           done();
         });
     });

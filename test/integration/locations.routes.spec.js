@@ -36,7 +36,7 @@ describe('Testing Locations API Routes', () => {
   });
 
   describe('GET /api/v1/locations', () => {
-    it('should respond with all the locations', (done) => {
+    it('should respond with all locations', (done) => {
       chai.request(server)
         .get('/api/v1/locations')
         .end((err, res) => {
@@ -53,7 +53,7 @@ describe('Testing Locations API Routes', () => {
     });
   });
   describe('GET /api/v1/locations:/id', () => {
-    it('should respond with a specific location', (done) => {
+    it('should respond with a single location with id 4198', (done) => {
       chai.request(server)
         .get('/api/v1/locations/4198')
         .end((err, res) => {
@@ -87,7 +87,7 @@ describe('Testing Locations API Routes', () => {
     });
   });
   describe('POST /api/v1/locations', () => {
-    it('should respond with a success message along with a single location that was added', (done) => {
+    it('should respond with a success message and the newly added location', (done) => {
       chai.request(server)
         .post('/api/v1/locations')
         .send({
@@ -133,6 +133,7 @@ describe('Testing Locations API Routes', () => {
         });
     });
   });
+
   describe('PUT /api/locations/:id', () => {
     it('should respond with a success message along with a single location that was updated', (done) => {
       knex('locations')
