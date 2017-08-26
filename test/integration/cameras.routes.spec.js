@@ -85,10 +85,10 @@ describe('Testing Cameras API Routes', () => {
         .get('/api/v1/cameras/2000')
         .end((err, res) => {
           should.exist(err);
-          res.status.should.eql(404);
-          res.type.should.eql('application/json');
-          res.body.should.include.keys('error');
-          res.body.error.should.eql('That camera does not exist.');
+          res.status.should.equal(404);
+          res.type.should.equal('application/json');
+          res.body.status.should.equal('error');
+          res.body.data.error.should.equal('Camera with id (2000) was not found.');
           done();
         });
     });

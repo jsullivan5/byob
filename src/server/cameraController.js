@@ -13,12 +13,15 @@ const getCameras = (req, res) => {
 };
 
 const getCamerasById = (req, res) => {
-  DB('cameras').where('id', req.params.id).select()
+  DB('cameras').where('id', parseInt(req.params.id, 10)).select()
     .then(camera => (camera.length ? res.status(200).json({
       status: 'success',
       data: camera,
     }) : res.status(404).json({
-      error: 'That camera does not exist.',
+      status: 'error',
+      data: {
+        error: `Camera with id (${parseInt(req.params.id, 10)}) was not found.`,
+      },
     })))
     .catch(error => res.status(500).json({
       status: 'error',
