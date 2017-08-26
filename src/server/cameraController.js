@@ -1,6 +1,7 @@
 const DB = require('./knex');
 
 const getCameras = (req, res) => {
+  console.log('get cameras');
   DB('cameras').select()
     .then(cameras => res.status(200).json({
       status: 'success',
@@ -12,6 +13,22 @@ const getCameras = (req, res) => {
     }));
 };
 
+const getCamerasById = (req, res) => {
+  console.log('here');
+  DB('cameras').where('id', req.params.id).select()
+    .then(camera => (camera.length ? res.status(200).json({
+      status: 'success',
+      data: camera,
+    }) : res.status(404).json({
+      error: 'That camera does not exist.',
+    })))
+    .catch(error => res.status(500).json({
+      status: 'error',
+      data: error,
+    }));
+};
+
 module.exports = {
   getCameras,
+  getCamerasById,
 };

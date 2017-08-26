@@ -49,23 +49,46 @@ describe('Testing Cameras API Routes', () => {
       chai.request(server)
         .get('/api/v1/cameras')
         .end((err, res) => {
-          // there should be no errors
           should.not.exist(err);
-          // there should be a 200 status code
           res.status.should.equal(200);
-          // the response should be JSON
           res.type.should.equal('application/json');
-          // the JSON response body should have a
-          // key-value pair of {"status": "success"}
           res.body.status.should.eql('success');
-          // the JSON response body should have a
-          // key-value pair of {"data": [2 user objects]}
           res.body.data.length.should.eql(1042);
-          // the first object in the data array should
-          // have the right keys
-          // res.body.data[0].should.include.keys(
-          //   'id', 'username', 'email', 'created_at',
-          // );
+          res.body.data[0].should.include.keys(
+            'dimensions', 'effective_pixels', 'id', 'low_resolution',
+            'macro_focus_range', 'max_resolution', 'model', 'normal_focus_range', 'price',
+            'storage_included', 'weight', 'zoom_tele', 'zoom_wide');
+          done();
+        });
+    });
+  });
+
+  describe('GET /api/v1/cameras/:id', () => {
+    it('should respond with a single camera with id 1', (done) => {
+      chai.request(server)
+        .get('/api/v1/cameras/1')
+        .end((err, res) => {
+          should.not.exist(err);
+          res.status.should.equal(200);
+          res.type.should.equal('application/json');
+          res.body.status.should.eql('success');
+          res.body.data[0].should.include.keys(
+            'dimensions', 'effective_pixels', 'id', 'low_resolution',
+            'macro_focus_range', 'max_resolution', 'model', 'normal_focus_range', 'price',
+            'storage_included', 'weight', 'zoom_tele', 'zoom_wide');
+          done();
+        });
+    });
+
+    it.skip('should respond with an error message indicating the folder does not exist', (done) => {
+      chai.request(server)
+        .get('/api/v1/cameras/2')
+        .end((err, res) => {
+          should.exist(err);
+          res.status.should.eql(404);
+          res.type.should.eql('application/json');
+          res.body.should.include.keys('error');
+          res.body.error.should.eql('That folder does not exist.');
           done();
         });
     });
