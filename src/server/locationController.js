@@ -97,18 +97,15 @@ const putLocation = (req, res) => {
 
 const deleteLocation = (req, res) => {
   const locationId = parseInt(req.params.id, 10);
-  console.log('----------------------', locationId);
   DB('locations')
     .del()
     .where({
       id: locationId,
     })
     .then((location) => {
-      console.log('what the fuck');
       res.status(204).send('Success');
     })
     .catch((err) => {
-      console.log('shit');
       res.status(404).send('Resource not found');
     });
 };
