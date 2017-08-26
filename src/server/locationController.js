@@ -106,21 +106,22 @@ const putLocation = (req, res) => {
 };
 
 const deleteLocation = (req, res, next) => {
-  const locationId = parseInt(req.params.id, 10);
-  console.log('----------------------', locationId);
-  DB('locations').where('id', parseInt(req.params.id, 10)).del()
+  DB('locations')
+    .where('id', parseInt(req.params.id, 10))
+    .del()
     .returning('*')
     .then((location) => {
-      console.log('deleted', location);
-      res.status(204).send({
-        status: 'Success',
-        message: `Location with id ${locationId} was deleted.`,
+      res.status(200).send({
+        status: 'success',
+        data: {
+          message: `Location with id (${location[0].id}) was deleted.`,
+        },
       });
     })
-    .catch((err) => {
+    .catch((error) => {
       res.status(500).send({
-        status: 'Error',
-        error: err,
+        status: 'error',
+        data: error,
       });
     });
 };

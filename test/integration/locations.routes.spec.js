@@ -173,53 +173,37 @@ describe('Testing Locations API Routes', () => {
         });
     });
   });
+
   describe('DELETE /api/v1/locations/:id', () => {
-    it.skip('should respond with a success message and delete the resource', (done) => {
+    it('should respond with a success message and delete the resource', (done) => {
       chai.request(server)
-        .get('/api/v1/locations/4198')
-        .end((err1, res1) => {
-          should.not.exist(err1);
-          res1.should.have.status(200);
-          res1.body.data[0].id.should.equal(4198);
-          res1.body.data[0].name.should.equal('Crist LLC');
-          res1.body.data[0].address.should.equal('5278 Gottlieb Groves');
-          res1.body.data[0].lat.should.equal('39.740081583333335');
-          res1.body.data[0].long.should.equal('39.740081583333335');
+        .get('/api/v1/locations/1')
+        .end((err, res) => {
+          should.not.exist(err);
+          res.should.have.status(200);
           chai.request(server)
-            .delete('/api/v1/locations/4198')
-            .end((err2, res2) => {
-              res2.should.have.status(204);
-              chai.request(server)
-                .get('/api/v1/locations/4198')
-                .end((er, re) => {
-                  re.should.have.status(404);
-                  done();
-                });
+            .delete('/api/v1/locations/1')
+            .end((err1, res1) => {
+              should.not.exist(err1);
+              res1.should.have.status(200);
+              res1.body.status.should.equal('success');
+              res1.body.data.message.should.equal('Location with id (1) was deleted.');
             });
+          done();
+        });
+    });
+
+    it('should respond with a 500 error message if a FK restraint exists', (done) => {
+      chai.request(server)
+        .delete('/api/v1/locations/4198')
+        .end((err, res) => {
+          should.exist(err);
+          res.should.have.status(500);
+          res.body.data.code.should.equal('23503');
+          res.body.data.detail.should.equal('Key (id)=(4198) is still referenced from table "photos".');
+          res.body.data.constraint.should.equal('photos_location_id_foreign');
+          done();
         });
     });
   });
-  // describe('DELETE /api/v1/locations/:id', () => {
-  //   it.skip('should respond with a success message and delete the resource', (done) => {
-  //     knex('locations')
-  //       .select('*')
-  //       .then((locations) => {
-  //         const locationObject = locations[0];
-  //         const lengthB4Delete = locations.length;
-  //         console.log(locationObject.id);
-  //         chai.request(server)
-  //           .delete(`/api/v1/locations/${locationObject.id}`)
-  //           .end((err, res) => {
-  //             // should.not.exist(err);
-  //             res.status.should.equal(204);
-  //             // done();
-  //             knex('locations').select('*')
-  //               .then((updatedLocations) => {
-  //                 updatedLocations.length.should.equal(lengthB4Delete - 1);
-  //               });
-  //             done();
-  //           });
-  //       });
-  //   });
-  // });
 });
