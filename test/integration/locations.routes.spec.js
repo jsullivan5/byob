@@ -134,7 +134,7 @@ describe('Testing Locations API Routes', () => {
     });
   });
   describe('PUT /api/locations/:id', () => {
-    it.skip('should respond with a success message along with a single user that was updated', (done) => {
+    it('should respond with a success message along with a single location that was updated', (done) => {
       knex('locations')
         .select('*')
         .then((location) => {
@@ -153,7 +153,7 @@ describe('Testing Locations API Routes', () => {
               should.not.exist(err);
               res.status.should.equal(200);
               res.type.should.equal('application/json');
-              res.body.status.should.equal('Success');
+              res.body.status.should.equal('success');
               res.body.data[0].should.include.keys('id', 'name', 'address', 'description', 'insider_tips', 'lat', 'long', 'altitude');
               const newLocation = res.body.data[0];
               newLocation.address.should.not.equal(locationObject.address);

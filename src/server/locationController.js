@@ -43,7 +43,7 @@ const getLocationById = (req, res) => {
     .catch((error) => {
       res.status(500).json({
         status: 'error',
-        error,
+        data: error,
       });
     });
 };
@@ -79,8 +79,6 @@ const postLocation = (req, res) => {
 };
 
 const putLocation = (req, res) => {
-  const locationId = parseInt(req.params.id, 10);
-
   DB('locations')
     .update({
       name: req.body.name,
@@ -91,20 +89,18 @@ const putLocation = (req, res) => {
       long: req.body.long,
       altitude: req.body.altitude,
     })
-    .where({
-      id: locationId,
-    })
+    .where('id', parseInt(req.params.id, 10))
     .returning('*')
     .then((location) => {
       res.status(200).json({
-        status: 'Success',
+        status: 'success',
         data: location,
       });
     })
-    .catch((err) => {
+    .catch((error) => {
       res.status(500).json({
         status: 'Error',
-        data: err,
+        data: error,
       });
     });
 };
