@@ -31,7 +31,8 @@ const addCamera = (req, res) => {
   for (const requiredParameter of ['model']) {
     if (!newCamera[requiredParameter]) {
       return res.status(422).json({
-        error: `Missing required parameter of ${requiredParameter}`,
+        status: 'error',
+        message: `Missing required parameter of ${requiredParameter}.`,
       });
     }
   }

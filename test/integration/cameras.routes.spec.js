@@ -124,5 +124,24 @@ describe('Testing Cameras API Routes', () => {
           done();
         });
     });
+
+    it('should respond with a error message if a required param is missing', (done) => {
+      chai.request(server)
+        .post('/api/v1/cameras')
+        .send({
+          max_resolution: 1080,
+          low_resolution: 1080,
+          effective_pixels: 0,
+          zoom_wide: 38,
+        })
+        .end((err, res) => {
+          should.exist(err);
+          res.status.should.equal(422);
+          res.type.should.equal('application/json');
+          res.body.status.should.eql('error');
+          res.body.message.should.equal('Missing required parameter of model.');
+          done();
+        });
+    });
   });
 });
