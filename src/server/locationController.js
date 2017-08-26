@@ -3,34 +3,45 @@ const DB = require('./knex');
 const getLocations = (req, res) => {
   DB('locations').select('*')
     .then((locations) => {
-      res.status(200).json({
-        status: 'Success',
-        data: locations,
-      });
-    })
-    .catch((error) => {
-      res.status(500).json({ error });
-    });
-};
-
-const getLocation = (req, res) => {
-  const locationId = parseInt(req.params.id, 10);
-
-  DB('locations')
-    .select('*')
-    .where({
-      id: locationId,
-    })
-    .then((location) => {
-      res.status(200).json({
-        status: 'Success',
-        data: location,
-      });
+      locations.length ?
+        res.status(200).json({
+          status: 'success',
+          data: locations,
+        }) :
+        res.status(404).json({
+          status: 'error',
+          data: {
+            error: 'No locations found.',
+          },
+        });
     })
     .catch((error) => {
       res.status(500).json({
-        status: 'Error',
+        status: 'error',
         data: error,
+      });
+    });
+};
+
+const getLocationById = (req, res) => {
+  DB('locations').select().where('id', req.params.id)
+    .then((location) => {
+      location.length ?
+        res.status(200).json({
+          status: 'success',
+          data: location,
+        }) :
+        res.status(404).json({
+          status: 'error',
+          data: {
+            error: `Location with id ${req.params.id} not found.`,
+          },
+        });
+    })
+    .catch((error) => {
+      res.status(500).json({
+        status: 'error',
+        error,
       });
     });
 };
@@ -38,11 +49,11 @@ const getLocation = (req, res) => {
 const postLocation = (req, res) => {
   const newLocation = req.body;
 
-  for (const requiredParameter of ['name', 'address', 'description', 'insider_tips', 'lat', 'long']) {
+  for (const requiredParameter of ['name', 'address', 'lat', 'long']) {
     if (!newLocation[requiredParameter]) {
       return res.status(422).json({
         status: 'Error',
-        data: `Missing required parameter ${requiredParameter}`,
+        message: `Missing required parameter ${requiredParameter}.`,
       });
     }
   }
@@ -95,27 +106,29 @@ const putLocation = (req, res) => {
     });
 };
 
-const deleteLocation = (req, res) => {
+const deleteLocation = (req, res, next) => {
   const locationId = parseInt(req.params.id, 10);
   console.log('----------------------', locationId);
-  DB('locations')
-    .del()
-    .where({
-      id: locationId,
-    })
+  DB('locations').where('id', parseInt(req.params.id, 10)).del()
+    .returning('*')
     .then((location) => {
-      console.log('what the fuck');
-      res.status(204).send('Success');
+      console.log('deleted', location);
+      res.status(204).send({
+        status: 'Success',
+        message: `Location with id ${locationId} was deleted.`,
+      });
     })
     .catch((err) => {
-      console.log('shit');
-      res.status(404).send('Resource not found');
+      res.status(500).send({
+        status: 'Error',
+        error: err,
+      });
     });
 };
 
 module.exports = {
   getLocations,
-  getLocation,
+  getLocationById,
   postLocation,
   putLocation,
   deleteLocation,

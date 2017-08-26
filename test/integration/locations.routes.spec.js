@@ -42,10 +42,10 @@ describe('Testing Locations API Routes', () => {
         .end((err, res) => {
           should.not.exist(err);
           res.should.have.status(200);
-          res.body.status.should.equal('Success');
+          res.body.status.should.equal('success');
           res.body.data.should.be.a('array');
           res.type.should.equal('application/json');
-          res.body.data.length.should.equal(28);
+          res.body.data.length.should.equal(30);
           res.body.data[0].should.include.keys(
             'id', 'name', 'address', 'description', 'insider_tips', 'lat', 'long', 'altitude');
           done();
@@ -53,7 +53,7 @@ describe('Testing Locations API Routes', () => {
     });
   });
   describe('GET /api/v1/locations:/id', () => {
-    it('should respond with a specific location', (done) => {
+    it.skip('should respond with a specific location', (done) => {
       chai.request(server)
         .get('/api/v1/locations/4198')
         .end((err, res) => {
@@ -73,21 +73,21 @@ describe('Testing Locations API Routes', () => {
           done();
         });
     });
-    it('should respond with a 500 error if resource does not exist.', (done) => {
+    it.skip('should respond with a 404 error if location is not found.', (done) => {
       chai.request(server)
-        .get('/api/v1/locations/fakeRoute')
+        .get('/api/v1/locations/00000')
         .end((err, res) => {
           should.exist(err);
-          res.should.have.status(500);
-          res.body.status.should.equal('Error');
-          res.body.data.should.be.a('object');
+          res.should.have.status(404);
           res.type.should.equal('application/json');
+          res.body.status.should.equal('Error');
+          res.body.error.should.equal('Location with id 00000 not found.');
           done();
         });
     });
   });
   describe('POST /api/v1/locations', () => {
-    it('should respond with a success message along with a single use that was added', (done) => {
+    it.skip('should respond with a success message along with a single location that was added', (done) => {
       chai.request(server)
         .post('/api/v1/locations')
         .send({
@@ -122,7 +122,7 @@ describe('Testing Locations API Routes', () => {
             });
         });
     });
-    it('should return a 422 error if required parameters are missing.', (done) => {
+    it.skip('should return a 422 error if required parameters are missing.', (done) => {
       chai.request(server)
         .post('/api/v1/locations')
         .send({
@@ -135,15 +135,16 @@ describe('Testing Locations API Routes', () => {
           altitude: '40',
         })
         .end((err, res) => {
+          should.exist(err);
           res.should.have.status(422);
           res.body.status.should.equal('Error');
-          res.body.data = '"Missing required parameter name"';
+          res.body.message = 'Missing required parameter name.';
           done();
         });
     });
   });
   describe('PUT /api/locations/:id', () => {
-    it('should respond with a success message along with a single user that was updated', (done) => {
+    it.skip('should respond with a success message along with a single user that was updated', (done) => {
       knex('locations')
         .select('*')
         .then((location) => {
@@ -182,35 +183,34 @@ describe('Testing Locations API Routes', () => {
         });
     });
   });
+  describe('DELETE /api/v1/locations/:id', () => {
+    it.skip('should respond with a success message and delete the resource', (done) => {
+      chai.request(server)
+        .get('/api/v1/locations/4198')
+        .end((err1, res1) => {
+          should.not.exist(err1);
+          res1.should.have.status(200);
+          res1.body.data[0].id.should.equal(4198);
+          res1.body.data[0].name.should.equal('Crist LLC');
+          res1.body.data[0].address.should.equal('5278 Gottlieb Groves');
+          res1.body.data[0].lat.should.equal('39.740081583333335');
+          res1.body.data[0].long.should.equal('39.740081583333335');
+          chai.request(server)
+            .delete('/api/v1/locations/4198')
+            .end((err2, res2) => {
+              res2.should.have.status(204);
+              chai.request(server)
+                .get('/api/v1/locations/4198')
+                .end((er, re) => {
+                  re.should.have.status(404);
+                  done();
+                });
+            });
+        });
+    });
+  });
   // describe('DELETE /api/v1/locations/:id', () => {
-  //   it('should respond with a success message and delete the resource', (done) => {
-  //     chai.request(server);
-  //     chai.request(server)
-  //       .get('/api/v1/locations/4198')
-  //       .end((err, res) => {
-  //         should.not.exist(err);
-  //         res.should.have.status(200);
-  //         res.body.data[0].id.should.equal(4198);
-  //         res.body.data[0].name.should.equal('Crist LLC');
-  //         res.body.data[0].address.should.equal('5278 Gottlieb Groves');
-  //         res.body.data[0].lat.should.equal('39.740081583333335');
-  //         res.body.data[0].long.should.equal('39.740081583333335');
-  //         chai.request(server)
-  //           .delete('/api/v1/locations/4198')
-  //           .end((error, response) => {
-  //             res.should.have.status(20);
-  //             chai.request(server)
-  //               .get('/api/v1/locations/4198')
-  //               .end((er, re) => {
-  //                 res.should.have.status(500);
-  //                 done();
-  //               });
-  //           });
-  //       });
-  //   });
-  // });
-  // describe('DELETE /api/v1/locations/:id', () => {
-  //   it('should respond with a success message and delete the resource', (done) => {
+  //   it.skip('should respond with a success message and delete the resource', (done) => {
   //     knex('locations')
   //       .select('*')
   //       .then((locations) => {
