@@ -53,13 +53,13 @@ describe('Testing Locations API Routes', () => {
     });
   });
   describe('GET /api/v1/locations:/id', () => {
-    it.skip('should respond with a specific location', (done) => {
+    it('should respond with a specific location', (done) => {
       chai.request(server)
         .get('/api/v1/locations/4198')
         .end((err, res) => {
           should.not.exist(err);
           res.should.have.status(200);
-          res.body.status.should.equal('Success');
+          res.body.status.should.equal('success');
           res.body.data.should.be.a('array');
           res.type.should.equal('application/json');
           res.body.data.length.should.equal(1);
@@ -73,15 +73,15 @@ describe('Testing Locations API Routes', () => {
           done();
         });
     });
-    it.skip('should respond with a 404 error if location is not found.', (done) => {
+    it('should respond with a 404 error if location is not found.', (done) => {
       chai.request(server)
         .get('/api/v1/locations/00000')
         .end((err, res) => {
           should.exist(err);
           res.should.have.status(404);
           res.type.should.equal('application/json');
-          res.body.status.should.equal('Error');
-          res.body.error.should.equal('Location with id 00000 not found.');
+          res.body.status.should.equal('error');
+          res.body.data.error.should.equal('Location with id 00000 not found.');
           done();
         });
     });
