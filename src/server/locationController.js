@@ -94,9 +94,14 @@ const putLocation = (req, res) => {
     });
 };
 
+const deleteLocation = (req, res) => {
+  console.log('delete')
+}
+
 module.exports = {
   getLocations,
   getLocation,
   postLocation,
   putLocation,
+  deleteLocation,
 };
