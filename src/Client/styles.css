@@ -23,5 +23,5 @@ label {
 #jwt-display {
   margin: 0 auto;
   width: 350px;
-  text-align: center;
+  word-break: break-all;
 }
