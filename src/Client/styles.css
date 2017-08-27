@@ -1,3 +1,19 @@
-h1 {
-  color: green;
+#jwt-form {
+  width: 300px;
+  background-color: lightgray;
+  min-width: 200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#jwt-form input {
+  display: block;
+  margin: 10px auto;
+  width: 200px;
+}
+
+#jwt-display {
+  margin: 0 auto;
+  width: 350px;
+  text-align: center;
 }
