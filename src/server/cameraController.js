@@ -12,7 +12,7 @@ const getCameras = (req, res) => {
     }));
 };
 
-const getCamerasById = (req, res) => {
+const getCameraById = (req, res) => {
   DB('cameras').where('id', parseInt(req.params.id, 10)).select()
     .then(camera => (camera.length ? res.status(200).json({
       status: 'success',
@@ -95,7 +95,7 @@ const deleteCamera = (req, res) => {
 
 module.exports = {
   getCameras,
-  getCamerasById,
+  getCameraById,
   addCamera,
   updateCamera,
   deleteCamera,
