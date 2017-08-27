@@ -174,13 +174,14 @@ describe('Testing Cameras API Routes', () => {
 
   describe('DELETE /api/v1/cameras/:id', () => {
     it('should respond with a success message and delete the resource', (done) => {
+      const token = process.env.ADMIN_TOKEN;
       chai.request(server)
         .get('/api/v1/cameras/4')
         .end((err, res) => {
           should.not.exist(err);
           res.should.have.status(200);
           chai.request(server)
-            .delete('/api/v1/cameras/4')
+            .delete(`/api/v1/cameras/4/${token}`)
             .end((err1, res1) => {
               should.not.exist(err1);
               res1.should.have.status(200);
@@ -192,8 +193,9 @@ describe('Testing Cameras API Routes', () => {
     });
 
     it('should respond with a 500 error message if a FK restraint exists', (done) => {
+      const token = process.env.ADMIN_TOKEN;
       chai.request(server)
-        .delete('/api/v1/cameras/1')
+        .delete(`/api/v1/cameras/1/${token}`)
         .end((err, res) => {
           should.exist(err);
           res.should.have.status(500);

@@ -9,7 +9,7 @@ router.get('/v1/cameras', cameraController.getCameras);
 router.post('/v1/cameras', authController.checkAuth, cameraController.addCamera);
 router.get('/v1/cameras/:id', cameraController.getCamerasById);
 router.put('/v1/cameras/:id', authController.checkAuth, cameraController.updateCamera);
-router.delete('/v1/cameras/:id', authController.checkAuth, cameraController.deleteCamera);
+router.delete('/v1/cameras/:id/:token', authController.checkAuth, cameraController.deleteCamera);
 
 router.get('/v1/locations', locationController.getLocations);
 router.post('/v1/locations', locationController.postLocation);
