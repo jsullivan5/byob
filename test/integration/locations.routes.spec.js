@@ -2,6 +2,7 @@
 /* global it */
 /* global beforeEach */
 /* global afterEach */
+/* global before */
 
 process.env.NODE_ENV = 'test';
 const chai = require('chai');
@@ -88,6 +89,8 @@ describe('Testing Locations API Routes', () => {
   });
   describe('POST /api/v1/locations', () => {
     it('should respond with a success message and the newly added location', (done) => {
+      const token = process.env.ADMIN_TOKEN;
+
       chai.request(server)
         .post('/api/v1/locations')
         .send({
@@ -99,6 +102,7 @@ describe('Testing Locations API Routes', () => {
           lat: '40',
           lon: '40',
           altitude: '40',
+          token,
         })
         .end((err, res) => {
           should.not.exist(err);
@@ -113,6 +117,8 @@ describe('Testing Locations API Routes', () => {
         });
     });
     it('should return a 422 error if required parameters are missing.', (done) => {
+      const token = process.env.ADMIN_TOKEN;
+
       chai.request(server)
         .post('/api/v1/locations')
         .send({
@@ -123,6 +129,7 @@ describe('Testing Locations API Routes', () => {
           lat: '40',
           lon: '40',
           altitude: '40',
+          token,
         })
         .end((err, res) => {
           should.exist(err);
