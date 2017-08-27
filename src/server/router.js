@@ -6,7 +6,7 @@ const locationController = require('./locationController');
 const authController = require('./authController');
 
 router.get('/v1/cameras', cameraController.getCameras);
-router.post('/v1/cameras', cameraController.addCamera);
+router.post('/v1/cameras', authController.checkAuth, cameraController.addCamera);
 router.get('/v1/cameras/:id', cameraController.getCamerasById);
 router.put('/v1/cameras/:id', cameraController.updateCamera);
 router.delete('/v1/cameras/:id', cameraController.deleteCamera);

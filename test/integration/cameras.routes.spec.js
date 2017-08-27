@@ -3,6 +3,8 @@
 /* global beforeEach */
 /* global afterEach */
 
+require('dotenv').config();
+
 process.env.NODE_ENV = 'test';
 const chai = require('chai');
 
@@ -86,6 +88,7 @@ describe('Testing Cameras API Routes', () => {
 
   describe('POST /api/v1/cameras', () => {
     it('should respond with a success message and the newly added camera', (done) => {
+      const token = process.env.ADMIN_TOKEN;
       chai.request(server)
         .post('/api/v1/cameras')
         .send({
@@ -101,6 +104,7 @@ describe('Testing Cameras API Routes', () => {
           weight: 420,
           dimensions: 95,
           price: 179,
+          token,
         })
         .end((err, res) => {
           should.not.exist(err);
@@ -116,6 +120,7 @@ describe('Testing Cameras API Routes', () => {
     });
 
     it('should return a 422 error if required parameters are missing.', (done) => {
+      const token = process.env.ADMIN_TOKEN;
       chai.request(server)
         .post('/api/v1/cameras')
         .send({
@@ -123,6 +128,7 @@ describe('Testing Cameras API Routes', () => {
           low_resolution: 1080,
           effective_pixels: 0,
           zoom_wide: 38,
+          token,
         })
         .end((err, res) => {
           should.exist(err);
