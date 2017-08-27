@@ -5,6 +5,7 @@
 /* global before */
 
 process.env.NODE_ENV = 'test';
+const token = process.env.ADMIN_TOKEN;
 const chai = require('chai');
 
 const should = chai.should();
@@ -89,7 +90,6 @@ describe('Testing Locations API Routes', () => {
   });
   describe('POST /api/v1/locations', () => {
     it('should respond with a success message and the newly added location', (done) => {
-      const token = process.env.ADMIN_TOKEN;
       chai.request(server)
         .post('/api/v1/locations')
         .send({
@@ -116,7 +116,6 @@ describe('Testing Locations API Routes', () => {
         });
     });
     it('should return a 422 error if required parameters are missing.', (done) => {
-      const token = process.env.ADMIN_TOKEN;
       chai.request(server)
         .post('/api/v1/locations')
         .send({
@@ -144,7 +143,6 @@ describe('Testing Locations API Routes', () => {
       knex('locations')
         .select('*')
         .then((location) => {
-          const token = process.env.ADMIN_TOKEN;
           const locationObject = location[0];
           chai.request(server)
             .put(`/api/v1/locations/${locationObject.id}`)
@@ -184,7 +182,6 @@ describe('Testing Locations API Routes', () => {
 
   describe('DELETE /api/v1/locations/:id', () => {
     it('should respond with a success message and delete the resource', (done) => {
-      const token = process.env.ADMIN_TOKEN;
       chai.request(server)
         .get('/api/v1/locations/1')
         .end((err, res) => {
@@ -203,7 +200,6 @@ describe('Testing Locations API Routes', () => {
     });
 
     it('should respond with a 500 error message if a FK restraint exists', (done) => {
-      const token = process.env.ADMIN_TOKEN;
       chai.request(server)
         .delete(`/api/v1/locations/4198/${token}`)
         .end((err, res) => {
