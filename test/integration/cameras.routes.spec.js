@@ -44,7 +44,6 @@ describe('Testing Cameras API Routes', () => {
           res.status.should.equal(200);
           res.type.should.equal('application/json');
           res.body.status.should.eql('success');
-          res.body.data.length.should.eql(1042);
           res.body.data[0].should.include.keys(
             'dimensions', 'effective_pixels', 'id', 'low_resolution',
             'macro_focus_range', 'max_resolution', 'model', 'normal_focus_range', 'price',
