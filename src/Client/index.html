@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BYOB</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+  </head>
+  <body>
+    <form id="jwt-form" action="index.html" method="post">
+      <label for="form-email">Email</label>
+      <input id="form-email" type="email" name="email" value="" required />
+      <label for="form-app-name">App Name</label>
+      <input id="form-app-name" type="text" name="appName" value="" required />
+      <input id="form-submit"type="submit" name="submit" value="submit" disabled/>
+    </form>
+    <section id="jwt-display">
+      <p id="jwt-message">Please submit form to get an authorization token</p>
+    </section>
+    <script src='./scripts.js'></script>
+  </body>
+</html>

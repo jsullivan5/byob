@@ -7,16 +7,17 @@ const router = require('./router');
 const environment = process.env.NODE_ENV || 'development';
 const app = express();
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '../Client')));
 
 app.set('port', process.env.PORT || 3000);
 
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.use('/api', router);
 
 app.get('/', (req, res) => {
-  res.status(200).send('BYOB, fools! HAHAHAH...');
+  res.status(200).sendFile(path.join(__dirname, 'Client/index.html'));
 });
 
 app.listen(app.get('port'), () => {
