@@ -1,12 +1,12 @@
 const DB = require('./knex');
 
-const getCameras = (req, res) => {
-  DB('cameras')
+const getPhotos = (req, res) => {
+  DB('photos')
     .where(req.query)
     .select()
-    .then(cameras => res.status(200).json({
+    .then(photos => res.status(200).json({
       status: 'success',
-      data: cameras,
+      data: photos,
     }))
     .catch(error => res.status(500).json({
       status: 'error',
@@ -14,15 +14,15 @@ const getCameras = (req, res) => {
     }));
 };
 
-const getCameraById = (req, res) => {
-  DB('cameras').where('id', parseInt(req.params.id, 10)).select()
-    .then(camera => (camera.length ? res.status(200).json({
+const getPhotoById = (req, res) => {
+  DB('photos').where('id', parseInt(req.params.id, 10)).select()
+    .then(photo => (photo.length ? res.status(200).json({
       status: 'success',
-      data: camera,
+      data: photo,
     }) : res.status(404).json({
       status: 'error',
       data: {
-        error: `Camera with id (${parseInt(req.params.id, 10)}) was not found.`,
+        error: `Photo with id (${parseInt(req.params.id, 10)}) was not found.`,
       },
     })))
     .catch(error => res.status(500).json({
@@ -31,10 +31,10 @@ const getCameraById = (req, res) => {
     }));
 };
 
-const addCamera = (req, res) => {
-  const newCamera = req.body;
-  for (const requiredParameter of ['model']) {
-    if (!newCamera[requiredParameter]) {
+const addPhoto = (req, res) => {
+  const newPhoto = req.body;
+  for (const requiredParameter of ['location_id', 'camera_id', 'name']) {
+    if (!newPhoto[requiredParameter]) {
       return res.status(422).json({
         status: 'error',
         data: {
@@ -44,10 +44,10 @@ const addCamera = (req, res) => {
     }
   }
 
-  DB('cameras').insert(req.body, '*')
-    .then(camera => res.status(201).json({
+  DB('photos').insert(req.body, '*')
+    .then(photo => res.status(201).json({
       status: 'success',
-      data: camera[0],
+      data: photo[0],
     }))
     .catch(error => res.status(500).json({
       status: 'error',
@@ -55,15 +55,14 @@ const addCamera = (req, res) => {
     }));
 };
 
-const updateCamera = (req, res) => {
-  DB('cameras')
+const updatePhoto = (req, res) => {
+  DB('photos')
     .update(req.body, '*')
     .where('id', parseInt(req.params.id, 10))
-    .returning('*')
-    .then((camera) => {
+    .then((photo) => {
       res.status(200).json({
         status: 'success',
-        data: camera,
+        data: photo,
       });
     })
     .catch((error) => {
@@ -74,16 +73,16 @@ const updateCamera = (req, res) => {
     });
 };
 
-const deleteCamera = (req, res) => {
-  DB('cameras')
+const deletePhoto = (req, res) => {
+  DB('photos')
     .del()
     .where('id', parseInt(req.params.id, 10))
     .returning('*')
-    .then((camera) => {
+    .then((photo) => {
       res.status(200).send({
         status: 'success',
         data: {
-          message: `Camera with id (${camera[0].id}) was deleted.`,
+          message: `Photo with id (${photo[0].id}) was deleted.`,
         },
       });
     })
@@ -95,11 +94,10 @@ const deleteCamera = (req, res) => {
     });
 };
 
-
 module.exports = {
-  getCameras,
-  getCameraById,
-  addCamera,
-  updateCamera,
-  deleteCamera,
+  getPhotos,
+  getPhotoById,
+  addPhoto,
+  updatePhoto,
+  deletePhoto,
 };

@@ -2,7 +2,8 @@ const DB = require('./knex');
 
 const getLocations = (req, res) => {
   DB('locations')
-    .select('*')
+    .where(req.query)
+    .select()
     .then((locations) => {
       locations.length ?
         res.status(200).json({
@@ -80,15 +81,7 @@ const postLocation = (req, res) => {
 
 const updateLocation = (req, res) => {
   DB('locations')
-    .update({
-      name: req.body.name,
-      address: req.body.address,
-      description: req.body.description,
-      insider_tips: req.body.insider_tips,
-      lat: req.body.lat,
-      lon: req.body.lon,
-      altitude: req.body.altitude,
-    })
+    .update(req.body, '*')
     .where('id', parseInt(req.params.id, 10))
     .returning('*')
     .then((location) => {

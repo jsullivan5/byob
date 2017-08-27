@@ -54,6 +54,35 @@ describe('Testing Cameras API Routes', () => {
           done();
         });
     });
+
+    it('should respond with all cameras filtered by a query param', (done) => {
+      chai.request(server)
+        .get('/api/v1/cameras?max_resolution=1080')
+        .end((err, res) => {
+          should.not.exist(err);
+          res.status.should.equal(200);
+          res.type.should.equal('application/json');
+          res.body.status.should.eql('success');
+          res.body.data.length.should.equal(3);
+          res.body.data[0].should.include.keys(
+            'dimensions', 'effective_pixels', 'id', 'low_resolution',
+            'macro_focus_range', 'max_resolution', 'model', 'normal_focus_range', 'price',
+            'storage_included', 'weight', 'zoom_tele', 'zoom_wide');
+          done();
+        });
+    });
+
+    it('should respond with a 500 if the query param is invalid', (done) => {
+      chai.request(server)
+        .get('/api/v1/cameras?max_resoution=1080')
+        .end((err, res) => {
+          should.exist(err);
+          res.status.should.equal(500);
+          res.type.should.equal('application/json');
+          res.body.status.should.equal('error');
+          done();
+        });
+    });
   });
 
   describe('GET /api/v1/cameras/:id', () => {
@@ -163,7 +192,6 @@ describe('Testing Cameras API Routes', () => {
           res.body.data[0].model.should.equal('Apple iPhone 1000');
           res.body.data[0].max_resolution.should.equal(760);
           res.body.data[0].low_resolution.should.equal(420);
-          res.body.data[0].effective_pixels.should.equal(0);
           res.body.data[0].zoom_wide.should.equal(38);
           done();
         });
