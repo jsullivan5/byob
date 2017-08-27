@@ -14,7 +14,7 @@ router.delete('/v1/cameras/:id/:token', authController.checkAuth, cameraControll
 router.get('/v1/locations', locationController.getLocations);
 router.post('/v1/locations', authController.checkAuth, locationController.postLocation);
 router.get('/v1/locations/:id', locationController.getLocationById);
-router.put('/v1/locations/:id', locationController.updateLocation);
+router.put('/v1/locations/:id', authController.checkAuth, locationController.updateLocation);
 router.delete('/v1/locations/:id', locationController.deleteLocation);
 
 router.post('/v1/auth', authController.getAuth);
