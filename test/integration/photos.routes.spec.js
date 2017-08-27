@@ -52,6 +52,36 @@ describe('Testing Photos API Routes', () => {
           done();
         });
     });
+
+    it('should respond with all photos filtered by a query param', (done) => {
+      chai.request(server)
+        .get('/api/v1/photos?iso=100&camera_id=1')
+        .end((err, res) => {
+          should.not.exist(err);
+          res.status.should.equal(200);
+          res.type.should.equal('application/json');
+          res.body.status.should.eql('success');
+          res.body.data.length.should.equal(1);
+          res.body.data[0].should.include.keys(
+            'location_id', 'camera_id', 'id', 'url',
+            'name', 'description', 'aperture_value', 'iso', 'exposure_mode',
+            'shutter_speed', 'content_creation_date', 'gps', 'acquisition_model',
+            'acquisition_make', 'fnumber', 'focal_length', 'lens_make', 'lens_model');
+          done();
+        });
+    });
+
+    it('should respond with a 500 if the query param is invalid', (done) => {
+      chai.request(server)
+        .get('/api/v1/photos?isa=100&camera_id=1')
+        .end((err, res) => {
+          should.exist(err);
+          res.status.should.equal(500);
+          res.type.should.equal('application/json');
+          res.body.status.should.equal('error');
+          done();
+        });
+    });
   });
 
   describe('GET /api/v1/photos/:id', () => {
