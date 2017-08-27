@@ -26,7 +26,13 @@ describe('POST /api/v1/auth', () => {
       .end((err, res) => {
         const token = res.body.token;
         const secret = process.env.SECRET_KEY;
-        const decoded = jwt.verify(token, secret);
+        let decoded;
+
+        try {
+          decoded = jwt.verify(token, secret);
+        } catch (error) {
+          return error;
+        }
 
         should.not.exist(err);
         res.status.should.equal(201);
@@ -47,7 +53,13 @@ describe('POST /api/v1/auth', () => {
       .end((err, res) => {
         const token = res.body.token;
         const secret = process.env.SECRET_KEY;
-        const decoded = jwt.verify(token, secret);
+        let decoded;
+
+        try {
+          decoded = jwt.verify(token, secret);
+        } catch (error) {
+          return error;
+        }
 
         should.not.exist(err);
         res.status.should.equal(201);
