@@ -19,10 +19,10 @@ router.put('/v1/locations/:id', authController.checkAuth, locationController.upd
 router.delete('/v1/locations/:id/:token', locationController.deleteLocation);
 
 router.get('/v1/photos', photoController.getPhotos);
+router.post('/v1/photos', authController.checkAuth, photoController.addPhoto);
 router.get('/v1/photos/:id', photoController.getPhotoById);
-router.post('/v1/photos', photoController.addPhoto);
-router.put('/v1/photos/:id', photoController.updatePhoto);
-router.delete('/v1/photos/:id', photoController.deletePhoto);
+router.put('/v1/photos/:id', authController.checkAuth, photoController.updatePhoto);
+router.delete('/v1/photos/:id/:token', authController.checkAuth, photoController.deletePhoto);
 
 router.post('/v1/auth', authController.getAuth);
 

@@ -4,8 +4,10 @@
 /* global afterEach */
 /* global before */
 
-process.env.NODE_ENV = 'test';
+require('dotenv').config();
+
 const token = process.env.ADMIN_TOKEN;
+process.env.NODE_ENV = 'test';
 const chai = require('chai');
 
 const should = chai.should();

@@ -3,6 +3,9 @@
 /* global beforeEach */
 /* global afterEach */
 
+require('dotenv').config();
+
+const token = process.env.ADMIN_TOKEN;
 process.env.NODE_ENV = 'test';
 const chai = require('chai');
 
@@ -126,6 +129,7 @@ describe('Testing Photos API Routes', () => {
           camera_id: 1,
           url: 'http://www.google.com',
           iso: 1600,
+          token,
         })
         .end((err, res) => {
           should.not.exist(err);
@@ -149,6 +153,7 @@ describe('Testing Photos API Routes', () => {
           camera_id: 1,
           url: 'http://www.google.com',
           iso: 1600,
+          token,
         })
         .end((err, res) => {
           should.exist(err);
@@ -169,6 +174,7 @@ describe('Testing Photos API Routes', () => {
           name: 'This really needs to be a better photo name!',
           description: 'This is a photo from our vacation in Aruba.',
           url: 'http://www.bing.com',
+          token,
         })
         .end((err, res) => {
           should.not.exist(err);
@@ -189,10 +195,10 @@ describe('Testing Photos API Routes', () => {
     });
   });
 
-  describe('DELETE /api/v1/photos/:id', () => {
+  describe('DELETE /api/v1/photos/:id/:token', () => {
     it('should respond with a success message and delete the resource', (done) => {
       chai.request(server)
-        .delete('/api/v1/photos/1')
+        .delete(`/api/v1/photos/1/${token}`)
         .end((err, res) => {
           should.not.exist(err);
           res.should.have.status(200);
