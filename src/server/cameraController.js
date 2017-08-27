@@ -59,6 +59,7 @@ const updateCamera = (req, res) => {
   DB('cameras')
     .update(req.body, '*')
     .where('id', parseInt(req.params.id, 10))
+    .returning('*')
     .then((camera) => {
       res.status(200).json({
         status: 'success',
