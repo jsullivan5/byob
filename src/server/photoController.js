@@ -53,8 +53,27 @@ const addPhoto = (req, res) => {
     }));
 };
 
+const updatePhoto = (req, res) => {
+  DB('photos')
+    .update(req.body, '*')
+    .where('id', parseInt(req.params.id, 10))
+    .then((photo) => {
+      res.status(200).json({
+        status: 'success',
+        data: photo,
+      });
+    })
+    .catch((error) => {
+      res.status(500).json({
+        status: 'error',
+        data: error,
+      });
+    });
+};
+
 module.exports = {
   getPhotos,
   getPhotoById,
   addPhoto,
+  updatePhoto,
 };

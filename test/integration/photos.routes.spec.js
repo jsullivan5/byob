@@ -130,4 +130,32 @@ describe('Testing Photos API Routes', () => {
         });
     });
   });
+
+  describe('PUT /api/photos/:id', () => {
+    it('should respond with a success message along with a single photo that was updated', (done) => {
+      chai.request(server)
+        .put('/api/v1/photos/1')
+        .send({
+          name: 'This really needs to be a better photo name!',
+          description: 'This is a photo from our vacation in Aruba.',
+          url: 'http://www.bing.com',
+        })
+        .end((err, res) => {
+          should.not.exist(err);
+          res.status.should.equal(200);
+          res.type.should.equal('application/json');
+          res.body.status.should.equal('success');
+          res.body.data[0].should.include.keys(
+            'location_id', 'camera_id', 'id', 'url',
+            'name', 'description', 'aperture_value', 'iso', 'exposure_mode',
+            'shutter_speed', 'content_creation_date', 'gps', 'acquisition_model',
+            'acquisition_make', 'fnumber', 'focal_length', 'lens_make', 'lens_model');
+          res.body.data[0].id.should.equal(1);
+          res.body.data[0].name.should.equal('This really needs to be a better photo name!');
+          res.body.data[0].description.should.equal('This is a photo from our vacation in Aruba.');
+          res.body.data[0].url.should.equal('http://www.bing.com');
+          done();
+        });
+    });
+  });
 });

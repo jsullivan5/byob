@@ -21,6 +21,7 @@ router.delete('/v1/locations/:id', locationController.deleteLocation);
 router.get('/v1/photos', photoController.getPhotos);
 router.get('/v1/photos/:id', photoController.getPhotoById);
 router.post('/v1/photos', photoController.addPhoto);
+router.put('/v1/photos/:id', photoController.updatePhoto);
 
 router.post('/v1/auth', authController.getAuth);
 
