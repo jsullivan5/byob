@@ -146,6 +146,7 @@ describe('Testing Locations API Routes', () => {
       knex('locations')
         .select('*')
         .then((location) => {
+          const token = process.env.ADMIN_TOKEN;
           const locationObject = location[0];
           chai.request(server)
             .put(`/api/v1/locations/${locationObject.id}`)
@@ -156,6 +157,7 @@ describe('Testing Locations API Routes', () => {
               lat: '50',
               lon: '50',
               altitude: '50',
+              token,
             })
             .end((err, res) => {
               should.not.exist(err);
