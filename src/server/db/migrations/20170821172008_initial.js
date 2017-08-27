@@ -17,22 +17,22 @@ exports.up = (knex, Promise) => Promise.all([
   }),
   knex.schema.createTable('locations', (table) => {
     table.increments('id').primary();
-    table.string('name');
-    table.string('address');
+    table.string('name').notNullable();
+    table.string('address').notNullable();
     table.string('description');
     table.string('insider_tips');
-    table.specificType('lat', 'numeric');
-    table.specificType('lon', 'numeric');
+    table.specificType('lat', 'numeric').notNullable();
+    table.specificType('lon', 'numeric').notNullable();
     table.specificType('altitude', 'numeric');
   }),
   knex.schema.createTable('photos', (table) => {
     table.increments('id').primary();
-    table.integer('location_id').unsigned();
+    table.integer('location_id').unsigned().notNullable();
     table.foreign('location_id').references('locations.id');
-    table.integer('camera_id').unsigned();
+    table.integer('camera_id').unsigned().notNullable();
     table.foreign('camera_id').references('cameras.id');
     table.string('url');
-    table.string('name');
+    table.string('name').notNullable();
     table.string('description');
     table.float('aperture_value');
     table.integer('iso').unsigned();

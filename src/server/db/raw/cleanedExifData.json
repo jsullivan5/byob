@@ -1,5 +1,6 @@
 [{
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 100,
   "exposure_mode": 0,
@@ -21,6 +22,7 @@
   "location_id": 4198
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 100,
   "exposure_mode": 0,
@@ -42,6 +44,7 @@
   "location_id": 23174
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 100,
   "exposure_mode": 0,
@@ -63,6 +66,7 @@
   "location_id": 65433
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 100,
   "exposure_mode": 0,
@@ -84,6 +88,7 @@
   "location_id": 90038
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 100,
   "exposure_mode": 0,
@@ -105,6 +110,7 @@
   "location_id": 35793
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 100,
   "exposure_mode": 0,
@@ -126,6 +132,7 @@
   "location_id": 15433
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 400,
   "exposure_mode": 1,
@@ -147,6 +154,7 @@
   "location_id": 55874
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 400,
   "exposure_mode": 1,
@@ -168,6 +176,7 @@
   "location_id": 66736
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 200,
   "exposure_mode": 1,
@@ -189,6 +198,7 @@
   "location_id": 27123
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 400,
   "exposure_mode": 1,
@@ -210,6 +220,7 @@
   "location_id": 53188
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 200,
   "exposure_mode": 1,
@@ -231,6 +242,7 @@
   "location_id": 67386
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 200,
   "exposure_mode": 1,
@@ -252,6 +264,7 @@
   "location_id": 46853
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 200,
   "exposure_mode": 1,
@@ -273,6 +286,7 @@
   "location_id": 65584
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 200,
   "exposure_mode": 1,
@@ -294,6 +308,7 @@
   "location_id": 68119
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 400,
   "exposure_mode": 1,
@@ -315,6 +330,7 @@
   "location_id": 98804
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 400,
   "exposure_mode": 1,
@@ -336,6 +352,7 @@
   "location_id": 71737
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 200,
   "exposure_mode": 1,
@@ -357,6 +374,7 @@
   "location_id": 3906
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 400,
   "exposure_mode": 1,
@@ -378,6 +396,7 @@
   "location_id": 4577
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 200,
   "exposure_mode": 1,
@@ -399,6 +418,7 @@
   "location_id": 48855
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 400,
   "exposure_mode": 1,
@@ -420,6 +440,7 @@
   "location_id": 19017
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 200,
   "exposure_mode": 1,
@@ -441,6 +462,7 @@
   "location_id": 53736
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 400,
   "exposure_mode": 1,
@@ -462,6 +484,7 @@
   "location_id": 79355
 }, {
   "camera_id": 2,
+  "name": "A really great photo of a thing!",
   "aperture_value": 2.27,
   "iso": 400,
   "exposure_mode": 1,
@@ -483,6 +506,7 @@
   "location_id": 89987
 }, {
   "camera_id": 3,
+  "name": "This photo is terrible!",
   "aperture_value": 1.6959937156323646,
   "iso": 40,
   "exposure_mode": 0,
@@ -514,6 +538,7 @@
   "location_id": 17301
 }, {
   "camera_id": 1,
+  "name": "Another really sweet photo of stuff!",
   "aperture_value": 3.356144,
   "iso": 2500,
   "exposure_mode": 1,
@@ -536,6 +561,7 @@
   "location_id": 84509
 }, {
   "camera_id": 1,
+  "name": "Another really sweet photo of stuff!",
   "iso": 2500,
   "exposure_mode": 1,
   "shutter_speed": 0.005,
@@ -555,6 +581,7 @@
   "location_id": 47168
 }, {
   "camera_id": 1,
+  "name": "Another really sweet photo of stuff!",
   "iso": 100,
   "exposure_mode": 1,
   "shutter_speed": 0.1,
@@ -574,6 +601,7 @@
   "location_id": 34876
 }, {
   "camera_id": 1,
+  "name": "Another really sweet photo of stuff!",
   "iso": 1250,
   "exposure_mode": 1,
   "shutter_speed": 0.0125,

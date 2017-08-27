@@ -29,7 +29,32 @@ const getPhotoById = (req, res) => {
     }));
 };
 
+const addPhoto = (req, res) => {
+  const newPhoto = req.body;
+  for (const requiredParameter of ['location_id', 'camera_id', 'name']) {
+    if (!newPhoto[requiredParameter]) {
+      return res.status(422).json({
+        status: 'error',
+        data: {
+          error: `Missing required parameter of (${requiredParameter}).`,
+        },
+      });
+    }
+  }
+
+  DB('photos').insert(req.body, '*')
+    .then(photo => res.status(201).json({
+      status: 'success',
+      data: photo[0],
+    }))
+    .catch(error => res.status(500).json({
+      status: 'error',
+      data: error,
+    }));
+};
+
 module.exports = {
   getPhotos,
   getPhotoById,
+  addPhoto,
 };

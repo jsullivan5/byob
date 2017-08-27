@@ -85,4 +85,49 @@ describe('Testing Photos API Routes', () => {
         });
     });
   });
+
+  describe('POST /api/v1/photos', () => {
+    it('should respond with a success message and the newly added photo', (done) => {
+      chai.request(server)
+        .post('/api/v1/photos')
+        .send({
+          name: 'A great picture of some mountains!',
+          location_id: 4198,
+          camera_id: 1,
+          url: 'http://www.google.com',
+          iso: 1600,
+        })
+        .end((err, res) => {
+          should.not.exist(err);
+          res.status.should.equal(201);
+          res.type.should.equal('application/json');
+          res.body.status.should.eql('success');
+          res.body.data.should.include.keys(
+            'location_id', 'camera_id', 'id', 'url',
+            'name', 'description', 'aperture_value', 'iso', 'exposure_mode',
+            'shutter_speed', 'content_creation_date', 'gps', 'acquisition_model',
+            'acquisition_make', 'fnumber', 'focal_length', 'lens_make', 'lens_model');
+          done();
+        });
+    });
+
+    it('should return a 422 error if required parameters are missing.', (done) => {
+      chai.request(server)
+        .post('/api/v1/photos')
+        .send({
+          name: 'A great picture of some mountains!',
+          camera_id: 1,
+          url: 'http://www.google.com',
+          iso: 1600,
+        })
+        .end((err, res) => {
+          should.exist(err);
+          res.status.should.equal(422);
+          res.type.should.equal('application/json');
+          res.body.status.should.eql('error');
+          res.body.data.error.should.equal('Missing required parameter of (location_id).');
+          done();
+        });
+    });
+  });
 });
