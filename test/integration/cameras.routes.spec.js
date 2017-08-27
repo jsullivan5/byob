@@ -143,12 +143,14 @@ describe('Testing Cameras API Routes', () => {
 
   describe('PUT /api/cameras/:id', () => {
     it('should respond with a success message along with a single camera that was updated', (done) => {
+      const token = process.env.ADMIN_TOKEN;
       chai.request(server)
         .put('/api/v1/cameras/1')
         .send({
           model: 'Apple iPhone 1000',
           max_resolution: 760,
           low_resolution: 420,
+          token,
         })
         .end((err, res) => {
           should.not.exist(err);
