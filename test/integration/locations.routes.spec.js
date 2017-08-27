@@ -47,7 +47,7 @@ describe('Testing Locations API Routes', () => {
           res.type.should.equal('application/json');
           res.body.data.length.should.equal(30);
           res.body.data[0].should.include.keys(
-            'id', 'name', 'address', 'description', 'insider_tips', 'lat', 'long', 'altitude');
+            'id', 'name', 'address', 'description', 'insider_tips', 'lat', 'lon', 'altitude');
           done();
         });
     });
@@ -64,12 +64,12 @@ describe('Testing Locations API Routes', () => {
           res.type.should.equal('application/json');
           res.body.data.length.should.equal(1);
           res.body.data[0].should.include.keys(
-            'id', 'name', 'address', 'description', 'insider_tips', 'lat', 'long', 'altitude');
+            'id', 'name', 'address', 'description', 'insider_tips', 'lat', 'lon', 'altitude');
           res.body.data[0].id.should.equal(4198);
           res.body.data[0].name.should.equal('Crist LLC');
           res.body.data[0].address.should.equal('5278 Gottlieb Groves');
           res.body.data[0].lat.should.equal('39.740081583333335');
-          res.body.data[0].long.should.equal('39.740081583333335');
+          res.body.data[0].lon.should.equal('39.740081583333335');
           done();
         });
     });
@@ -97,7 +97,7 @@ describe('Testing Locations API Routes', () => {
           description: 'Near the Whackamole game',
           insider_tips: 'Play lazer tag',
           lat: '40',
-          long: '40',
+          lon: '40',
           altitude: '40',
         })
         .end((err, res) => {
@@ -106,7 +106,7 @@ describe('Testing Locations API Routes', () => {
           res.type.should.equal('application/json');
           res.body.status.should.equal('success');
           res.body.data.length.should.equal(1);
-          res.body.data[0].should.include.keys('id', 'name', 'address', 'description', 'insider_tips', 'lat', 'long', 'altitude');
+          res.body.data[0].should.include.keys('id', 'name', 'address', 'description', 'insider_tips', 'lat', 'lon', 'altitude');
           res.body.data[0].id.should.equal(1111);
           res.body.data[0].name.should.equal('Chucky Cheese');
           done();
@@ -121,7 +121,7 @@ describe('Testing Locations API Routes', () => {
           description: 'Near the Whackamole game',
           insider_tips: 'Play lazer tag',
           lat: '40',
-          long: '40',
+          lon: '40',
           altitude: '40',
         })
         .end((err, res) => {
@@ -147,7 +147,7 @@ describe('Testing Locations API Routes', () => {
               description: 'new description',
               insider_tips: 'new tips',
               lat: '50',
-              long: '50',
+              lon: '50',
               altitude: '50',
             })
             .end((err, res) => {
@@ -155,7 +155,7 @@ describe('Testing Locations API Routes', () => {
               res.status.should.equal(200);
               res.type.should.equal('application/json');
               res.body.status.should.equal('success');
-              res.body.data[0].should.include.keys('id', 'name', 'address', 'description', 'insider_tips', 'lat', 'long', 'altitude');
+              res.body.data[0].should.include.keys('id', 'name', 'address', 'description', 'insider_tips', 'lat', 'lon', 'altitude');
               const newLocation = res.body.data[0];
               newLocation.address.should.not.equal(locationObject.address);
               newLocation.address.should.equal('456 McFakey St.');
@@ -165,8 +165,8 @@ describe('Testing Locations API Routes', () => {
               newLocation.insider_tips.should.equal('new tips');
               newLocation.lat.should.not.equal(locationObject.lat);
               newLocation.lat.should.equal('50');
-              newLocation.long.should.not.equal(locationObject.long);
-              newLocation.long.should.equal('50');
+              newLocation.lon.should.not.equal(locationObject.lon);
+              newLocation.lon.should.equal('50');
               newLocation.altitude.should.not.equal(locationObject.altitude);
               newLocation.altitude.should.equal('50');
               done();

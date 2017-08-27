@@ -42,7 +42,7 @@ class GeoData {
       data.GPSLongitude,
       data.GPSLongitudeRef);
     this.lat = loc[0];
-    this.long = loc[1];
+    this.lon = loc[1];
     this.name = faker.company.companyName();
     this.address = faker.address.streetAddress();
   }

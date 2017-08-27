@@ -50,7 +50,7 @@ const getLocationById = (req, res) => {
 
 const postLocation = (req, res) => {
   const newLocation = req.body;
-  for (const requiredParameter of ['name', 'address', 'lat', 'long']) {
+  for (const requiredParameter of ['name', 'address', 'lat', 'lon']) {
     if (!newLocation[requiredParameter]) {
       return res.status(422).json({
         status: 'error',
@@ -86,7 +86,7 @@ const updateLocation = (req, res) => {
       description: req.body.description,
       insider_tips: req.body.insider_tips,
       lat: req.body.lat,
-      long: req.body.long,
+      lon: req.body.lon,
       altitude: req.body.altitude,
     })
     .where('id', parseInt(req.params.id, 10))
