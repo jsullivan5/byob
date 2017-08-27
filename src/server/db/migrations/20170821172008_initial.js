@@ -22,7 +22,7 @@ exports.up = (knex, Promise) => Promise.all([
     table.string('description');
     table.string('insider_tips');
     table.specificType('lat', 'numeric');
-    table.specificType('long', 'numeric');
+    table.specificType('lon', 'numeric');
     table.specificType('altitude', 'numeric');
   }),
   knex.schema.createTable('photos', (table) => {
