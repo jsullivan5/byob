@@ -13,8 +13,8 @@ appNameInput.addEventListener('change', disableBtn);
 function handleSubmit(event) {
   event.preventDefault();
   const displayMsg = document.getElementById('jwt-message');
-  const email = document.getElementById('form-email').value;
-  const appName = document.getElementById('form-app-name').value;
+  const email = emailInput.value;
+  const appName = appNameInput.value;
 
   if (!validateEmail(email)) {
     alert('Please include a valid email address.');
@@ -31,10 +31,16 @@ function handleSubmit(event) {
   })
     .then(response => response.json())
     .then((data) => {
-      console.log(data);
       displayMsg.innerText = JSON.stringify(data);
+      resetForm();
     })
     .catch(error => console.log(error));
+}
+
+function resetForm() {
+  emailInput.value = '';
+  appNameInput.value = '';
+  submit.disabled = true;
 }
 
 function disableBtn() {
