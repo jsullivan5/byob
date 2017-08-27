@@ -186,7 +186,6 @@ describe('Testing Cameras API Routes', () => {
           res.body.data[0].model.should.equal('Apple iPhone 1000');
           res.body.data[0].max_resolution.should.equal(760);
           res.body.data[0].low_resolution.should.equal(420);
-          res.body.data[0].effective_pixels.should.equal(0);
           res.body.data[0].zoom_wide.should.equal(38);
           done();
         });
