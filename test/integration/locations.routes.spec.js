@@ -51,7 +51,35 @@ describe('Testing Locations API Routes', () => {
           done();
         });
     });
+
+    it('should respond with all locations filtered by a query param', (done) => {
+      chai.request(server)
+        .get('/api/v1/locations?address=1+Yost+Meadows')
+        .end((err, res) => {
+          should.not.exist(err);
+          res.status.should.equal(200);
+          res.type.should.equal('application/json');
+          res.body.status.should.eql('success');
+          res.body.data.length.should.equal(1);
+          res.body.data[0].should.include.keys(
+            'id', 'name', 'address', 'description', 'insider_tips', 'lat', 'lon', 'altitude');
+          done();
+        });
+    });
+
+    it('should respond with a 500 if the query param is invalid', (done) => {
+      chai.request(server)
+        .get('/api/v1/locations?addres=1+Yost+Meadows')
+        .end((err, res) => {
+          should.exist(err);
+          res.status.should.equal(500);
+          res.type.should.equal('application/json');
+          res.body.status.should.equal('error');
+          done();
+        });
+    });
   });
+
   describe('GET /api/v1/locations:/id', () => {
     it('should respond with a single location with id 4198', (done) => {
       chai.request(server)

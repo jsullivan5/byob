@@ -1,7 +1,9 @@
 const DB = require('./knex');
 
 const getPhotos = (req, res) => {
-  DB('photos').select()
+  DB('photos')
+    .where(req.query)
+    .select()
     .then(photos => res.status(200).json({
       status: 'success',
       data: photos,
