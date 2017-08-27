@@ -6,7 +6,14 @@
     <link rel="stylesheet" type="text/css" href="./styles.css">
   </head>
   <body>
-    <h1>hello</h1>
+    <form id="jwt-form" action="index.html" method="post">
+      <input type="email" name="email" value="">
+      <input type="text" name="appName" value="">
+      <input type="submit" name="submit" value="submit">
+    </form>
+    <section id="jwt-display">
+      <p id="jwt-message">Please submit form to get an authorization token</p>
+    </section>
     <script src='./scripts.js'></script>
   </body>
 </html>
