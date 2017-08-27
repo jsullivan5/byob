@@ -9,7 +9,7 @@ machine:
     production:
       branch: master
       heroku:
-        appname: byob
+        appname: fotofinder
 
 test:
   override:
