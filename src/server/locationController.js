@@ -78,7 +78,7 @@ const postLocation = (req, res) => {
   return true;
 };
 
-const putLocation = (req, res) => {
+const updateLocation = (req, res) => {
   DB('locations')
     .update({
       name: req.body.name,
@@ -130,6 +130,6 @@ module.exports = {
   getLocations,
   getLocationById,
   postLocation,
-  putLocation,
+  updateLocation,
   deleteLocation,
 };
