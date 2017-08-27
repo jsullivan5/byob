@@ -177,6 +177,15 @@ describe('Testing Cameras API Routes', () => {
           model: 'Apple iPhone 1000',
           max_resolution: 760,
           low_resolution: 420,
+          effective_pixels: 0,
+          zoom_wide: 38,
+          zoom_tele: 114,
+          normal_focus_range: 70,
+          macro_focus_range: 40,
+          storage_included: 4,
+          weight: 420,
+          dimensions: 95,
+          price: 179,
           token,
         })
         .end((err, res) => {
