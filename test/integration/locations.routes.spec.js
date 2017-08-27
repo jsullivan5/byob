@@ -2,8 +2,10 @@
 /* global it */
 /* global beforeEach */
 /* global afterEach */
+/* global before */
 
 process.env.NODE_ENV = 'test';
+const token = process.env.ADMIN_TOKEN;
 const chai = require('chai');
 
 const should = chai.should();
@@ -127,6 +129,7 @@ describe('Testing Locations API Routes', () => {
           lat: '40',
           lon: '40',
           altitude: '40',
+          token,
         })
         .end((err, res) => {
           should.not.exist(err);
@@ -151,6 +154,7 @@ describe('Testing Locations API Routes', () => {
           lat: '40',
           lon: '40',
           altitude: '40',
+          token,
         })
         .end((err, res) => {
           should.exist(err);
@@ -177,6 +181,7 @@ describe('Testing Locations API Routes', () => {
               lat: '50',
               lon: '50',
               altitude: '50',
+              token,
             })
             .end((err, res) => {
               should.not.exist(err);
@@ -211,7 +216,7 @@ describe('Testing Locations API Routes', () => {
           should.not.exist(err);
           res.should.have.status(200);
           chai.request(server)
-            .delete('/api/v1/locations/1')
+            .delete(`/api/v1/locations/1/${token}`)
             .end((err1, res1) => {
               should.not.exist(err1);
               res1.should.have.status(200);
@@ -224,7 +229,7 @@ describe('Testing Locations API Routes', () => {
 
     it('should respond with a 500 error message if a FK restraint exists', (done) => {
       chai.request(server)
-        .delete('/api/v1/locations/4198')
+        .delete(`/api/v1/locations/4198/${token}`)
         .end((err, res) => {
           should.exist(err);
           res.should.have.status(500);
