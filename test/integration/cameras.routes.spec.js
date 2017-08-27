@@ -5,6 +5,7 @@
 
 require('dotenv').config();
 
+const token = process.env.ADMIN_TOKEN;
 process.env.NODE_ENV = 'test';
 const chai = require('chai');
 
@@ -88,7 +89,6 @@ describe('Testing Cameras API Routes', () => {
 
   describe('POST /api/v1/cameras', () => {
     it('should respond with a success message and the newly added camera', (done) => {
-      const token = process.env.ADMIN_TOKEN;
       chai.request(server)
         .post('/api/v1/cameras')
         .send({
@@ -120,7 +120,6 @@ describe('Testing Cameras API Routes', () => {
     });
 
     it('should return a 422 error if required parameters are missing.', (done) => {
-      const token = process.env.ADMIN_TOKEN;
       chai.request(server)
         .post('/api/v1/cameras')
         .send({
@@ -143,7 +142,6 @@ describe('Testing Cameras API Routes', () => {
 
   describe('PUT /api/cameras/:id', () => {
     it('should respond with a success message along with a single camera that was updated', (done) => {
-      const token = process.env.ADMIN_TOKEN;
       chai.request(server)
         .put('/api/v1/cameras/1')
         .send({
@@ -174,7 +172,6 @@ describe('Testing Cameras API Routes', () => {
 
   describe('DELETE /api/v1/cameras/:id', () => {
     it('should respond with a success message and delete the resource', (done) => {
-      const token = process.env.ADMIN_TOKEN;
       chai.request(server)
         .get('/api/v1/cameras/4')
         .end((err, res) => {
@@ -193,7 +190,6 @@ describe('Testing Cameras API Routes', () => {
     });
 
     it('should respond with a 500 error message if a FK restraint exists', (done) => {
-      const token = process.env.ADMIN_TOKEN;
       chai.request(server)
         .delete(`/api/v1/cameras/1/${token}`)
         .end((err, res) => {
