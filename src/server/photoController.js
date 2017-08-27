@@ -71,9 +71,31 @@ const updatePhoto = (req, res) => {
     });
 };
 
+const deletePhoto = (req, res) => {
+  DB('photos')
+    .del()
+    .where('id', parseInt(req.params.id, 10))
+    .returning('*')
+    .then((photo) => {
+      res.status(200).send({
+        status: 'success',
+        data: {
+          message: `Photo with id (${photo[0].id}) was deleted.`,
+        },
+      });
+    })
+    .catch((error) => {
+      res.status(500).send({
+        status: 'error',
+        data: error,
+      });
+    });
+};
+
 module.exports = {
   getPhotos,
   getPhotoById,
   addPhoto,
   updatePhoto,
+  deletePhoto,
 };

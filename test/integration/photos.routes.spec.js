@@ -158,4 +158,18 @@ describe('Testing Photos API Routes', () => {
         });
     });
   });
+
+  describe('DELETE /api/v1/photos/:id', () => {
+    it('should respond with a success message and delete the resource', (done) => {
+      chai.request(server)
+        .delete('/api/v1/photos/1')
+        .end((err, res) => {
+          should.not.exist(err);
+          res.should.have.status(200);
+          res.body.status.should.equal('success');
+          res.body.data.message.should.equal('Photo with id (1) was deleted.');
+          done();
+        });
+    });
+  });
 });
