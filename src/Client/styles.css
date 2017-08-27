@@ -12,6 +12,14 @@
   width: 200px;
 }
 
+#jwt-form input[type=submit] {
+  margin-top: 20px;
+}
+
+label {
+  margin-left: 50px;
+}
+
 #jwt-display {
   margin: 0 auto;
   width: 350px;
