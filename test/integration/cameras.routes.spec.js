@@ -3,6 +3,9 @@
 /* global beforeEach */
 /* global afterEach */
 
+require('dotenv').config();
+
+const token = process.env.ADMIN_TOKEN;
 process.env.NODE_ENV = 'test';
 const chai = require('chai');
 
@@ -130,6 +133,7 @@ describe('Testing Cameras API Routes', () => {
           weight: 420,
           dimensions: 95,
           price: 179,
+          token,
         })
         .end((err, res) => {
           should.not.exist(err);
@@ -152,6 +156,7 @@ describe('Testing Cameras API Routes', () => {
           low_resolution: 1080,
           effective_pixels: 0,
           zoom_wide: 38,
+          token,
         })
         .end((err, res) => {
           should.exist(err);
@@ -172,6 +177,7 @@ describe('Testing Cameras API Routes', () => {
           model: 'Apple iPhone 1000',
           max_resolution: 760,
           low_resolution: 420,
+          token,
         })
         .end((err, res) => {
           should.not.exist(err);
@@ -200,7 +206,7 @@ describe('Testing Cameras API Routes', () => {
           should.not.exist(err);
           res.should.have.status(200);
           chai.request(server)
-            .delete('/api/v1/cameras/4')
+            .delete(`/api/v1/cameras/4/${token}`)
             .end((err1, res1) => {
               should.not.exist(err1);
               res1.should.have.status(200);
@@ -213,7 +219,7 @@ describe('Testing Cameras API Routes', () => {
 
     it('should respond with a 500 error message if a FK restraint exists', (done) => {
       chai.request(server)
-        .delete('/api/v1/cameras/1')
+        .delete(`/api/v1/cameras/1/${token}`)
         .end((err, res) => {
           should.exist(err);
           res.should.have.status(500);
