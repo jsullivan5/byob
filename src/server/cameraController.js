@@ -71,10 +71,32 @@ const updateCamera = (req, res) => {
     });
 };
 
+const deleteCamera = (req, res) => {
+  DB('cameras')
+    .del()
+    .where('id', parseInt(req.params.id, 10))
+    .returning('*')
+    .then((camera) => {
+      res.status(200).send({
+        status: 'success',
+        data: {
+          message: `Camera with id (${camera[0].id}) was deleted.`,
+        },
+      });
+    })
+    .catch((error) => {
+      res.status(500).send({
+        status: 'error',
+        data: error,
+      });
+    });
+};
+
 
 module.exports = {
   getCameras,
   getCamerasById,
   addCamera,
   updateCamera,
+  deleteCamera,
 };
