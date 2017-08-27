@@ -1,9 +1,14 @@
 /* global document */
 /* global fetch */
 
-const submit = document.getElementById('form-submit');
 
-submit.addEventListener('click', (event) => {
+const submit = document.getElementById('form-submit');
+const emailInput = document.getElementById('form-email');
+const appNameInput = document.getElementById('form-app-name');
+
+submit.addEventListener('click', handleSubmit);
+
+function handleSubmit(event) {
   event.preventDefault();
   const displayMsg = document.getElementById('jwt-message');
   const email = document.getElementById('form-email').value;
@@ -25,4 +30,4 @@ submit.addEventListener('click', (event) => {
       displayMsg.innerText = JSON.stringify(data);
     })
     .catch(error => console.log(error));
-});
+}

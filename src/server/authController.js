@@ -2,8 +2,6 @@ require('dotenv').config();
 const jwt = require('jsonwebtoken');
 
 const getAuth = (req, res) => {
-  console.log('--------------', req.body);
-  // console.log(req);
   const email = req.body.email.toLowerCase();
   const appName = req.body.appName;
   const secret = process.env.SECRET_KEY;
