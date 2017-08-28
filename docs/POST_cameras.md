@@ -1,6 +1,6 @@
 # Photos Resources
 
-    GET photos
+    POST cameras
 
 ## Description
 Returns the newly created camera.
@@ -10,11 +10,12 @@ Returns the newly created camera.
 ## Parameters
 
 Pass the values of the new object in the request body.
+A json web token must be provided in the request body.
 
 ***
 
 ## Return format
-An array with the following keys and values:
+An object with the following keys and values:
 
 - **id** — Unique id of the camera.
 - **model** — Model of the camera.

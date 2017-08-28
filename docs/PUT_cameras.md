@@ -10,6 +10,7 @@ Returns the updated camera.
 ## Parameters
 
 ID (`:id`), passed as part of the request URL.
+A json web token must be provided in the request body.
 
 ***
 
