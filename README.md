@@ -53,11 +53,11 @@ This is a REST API that uses JWT for endpoint authentication. All responses are 
 
 #### Photos Resources
 
-- **[<code>GET</code> photos](https://github.com/the-oem/byob/blob/master/docs/GET_photos.md)** +
-- **[<code>POST</code> photos](https://github.com/the-oem/byob/blob/master/docs/POST_photos.md)** +
-- **[<code>GET</code> photos/:id](https://github.com/the-oem/byob/blob/master/docs/GET_photos_id.md)** +
-- **[<code>PUT</code> photos/:id](https://github.com/the-oem/byob/blob/master/docs/PUT_photos_id.md)** +
-- **[<code>DELETE</code> photos/:id/:token](https://github.com/the-oem/byob/blob/master/docs/DELETE_photos_id_token.md)** +
+- **[<code>GET</code> photos](docs/GET_photos.md)** +
+- **[<code>POST</code> photos](/docs/POST_photos.md)** +
+- **[<code>GET</code> photos/:id](/docs/GET_photos_id.md)** +
+- **[<code>PUT</code> photos/:id](/docs/PUT_photos_id.md)** +
+- **[<code>DELETE</code> photos/:id/:token](/docs/DELETE_photos_id_token.md)** +
 
 ## Authentication
 - **[<code>POST</code> admin](https://github.com/the-oem/byob/blob/master/docs/Auth.md)** +
