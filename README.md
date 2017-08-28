@@ -41,7 +41,7 @@ This is a REST API that uses JWT for endpoint authentication. All responses are 
 - **[<code>POST</code> cameras](/docs/POST_cameras.md)** +
 - **[<code>GET</code> cameras/:id](/docs/GET_cameras_id.md)** +
 - **[<code>PUT</code> cameras/:id](/docs/PUT_cameras.md)** +
-- **[<code>DELETE</code> cameras/:id/:token](https://github.com/the-oem/byob/blob/master/docs/DELETE_cameras_id_token.md)** +
+- **[<code>DELETE</code> cameras/:id/:token](/docs/DELETE_cameras.md)** +
 
 #### Locations Resources
 
