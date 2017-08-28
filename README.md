@@ -60,4 +60,4 @@ This is a REST API that uses JWT for endpoint authentication. All responses are 
 - **[<code>DELETE</code> photos/:id/:token](/docs/DELETE_photos.md)** +
 
 ## Authentication
-- **[<code>POST</code> admin](https://github.com/the-oem/byob/blob/master/docs/Auth.md)** +
+- **[<code>POST</code> admin](/docs/POST_auth.md)** +
