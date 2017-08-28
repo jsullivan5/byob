@@ -45,15 +45,15 @@ This is a REST API that uses JWT for endpoint authentication. All responses are 
 
 #### Locations Resources
 
-- **[<code>GET</code> locations](https://github.com/the-oem/byob/blob/master/docs/GET_locations.md)** +
-- **[<code>POST</code> locations](https://github.com/the-oem/byob/blob/master/docs/POST_locations.md)** +
-- **[<code>GET</code> locations/:id](https://github.com/the-oem/byob/blob/master/docs/GET_locations_id.md)** +
-- **[<code>PUT</code> locations/:id](https://github.com/the-oem/byob/blob/master/docs/PUT_locations_id.md)** +
-- **[<code>DELETE</code> locations/:id/:token](https://github.com/the-oem/byob/blob/master/docs/DELETE_locations_id_token.md)** +
+- **[<code>GET</code> locations](/docs/GET_locations.md)** +
+- **[<code>POST</code> locations](/docs/POST_locations.md)** +
+- **[<code>GET</code> locations/:id](/docs/GET_locations_id.md)** +
+- **[<code>PUT</code> locations/:id](/docs/PUT_locations.md)** +
+- **[<code>DELETE</code> locations/:id/:token](/docs/DELETE_locations.md)** +
 
 #### Photos Resources
 
-- **[<code>GET</code> photos](docs/GET_photos.md)** +
+- **[<code>GET</code> photos](/docs/GET_photos.md)** +
 - **[<code>POST</code> photos](/docs/POST_photos.md)** +
 - **[<code>GET</code> photos/:id](/docs/GET_photos_id.md)** +
 - **[<code>PUT</code> photos/:id](/docs/PUT_photos.md)** +
