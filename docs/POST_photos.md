@@ -51,7 +51,7 @@ Errors (404 and 500) will be returned in the following format:
 ## Example
 **Request**
 
-   GET api/v1/photos/
+   POST api/v1/photos/
 
 **Return** __shortened for example purpose__
 ``` json
