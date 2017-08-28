@@ -37,11 +37,11 @@ This is a REST API that uses JWT for endpoint authentication. All responses are 
 
 #### Camera Resources
 
-- **[<code>GET</code> cameras](https://github.com/the-oem/byob/blob/master/docs/GET_cameras.md)** +
-- **[<code>POST</code> cameras](https://github.com/the-oem/byob/blob/master/docs/POST_cameras.md)** +
-- **[<code>GET</code> cameras/:id](https://github.com/the-oem/byob/blob/master/docs/GET_cameras_id.md)** +
-- **[<code>PUT</code> cameras/:id](https://github.com/the-oem/byob/blob/master/docs/PUT_cameras_id.md)** +
-- **[<code>DELETE</code> cameras/:id/:token](https://github.com/the-oem/byob/blob/master/docs/DELETE_cameras_id_token.md)** +
+- **[<code>GET</code> cameras](/docs/GET_cameras.md)** +
+- **[<code>POST</code> cameras](/docs/POST_cameras.md)** +
+- **[<code>GET</code> cameras/:id](/docs/GET_cameras_id.md)** +
+- **[<code>PUT</code> cameras/:id](/docs/PUT_cameras.md)** +
+- **[<code>DELETE</code> cameras/:id/:token](/docs/DELETE_cameras.md)** +
 
 #### Locations Resources
 
@@ -60,4 +60,4 @@ This is a REST API that uses JWT for endpoint authentication. All responses are 
 - **[<code>DELETE</code> photos/:id/:token](/docs/DELETE_photos.md)** +
 
 ## Authentication
-- **[<code>POST</code> admin](https://github.com/the-oem/byob/blob/master/docs/Auth.md)** +
+- **[<code>POST</code> admin](/docs/POST_auth.md)** +
